@@ -1,0 +1,523 @@
+Problem: ./dat/eu.dat
+Simulation time: 1
+Berth Status: NN
+First ships: 1 0 
+Stocks: 13 14 17 15 
+Alocou navio: Chegada(1), inicio(1), saida (6), carga_total(5), taxa(1)
+Tirando resultado: 6 / 1
+Simulation time: 1
+Berth Status: NN
+First ships: 0 1 
+Stocks: 13 14 17 15 
+Alocou navio: Chegada(1), inicio(1), saida (6), carga_total(5), taxa(1)
+Tirando resultado: 6 / 1
+Simulation time: 1
+Berth Status: NN
+First ships: 1 0 
+Stocks: 13 14 17 15 
+Alocou navio: Chegada(1), inicio(1), saida (4), carga_total(3), taxa(1)
+Tirando resultado: 4 / 1
+Simulation time: 1
+Berth Status: NN
+First ships: 0 1 
+Stocks: 13 14 17 15 
+Alocou navio: Chegada(1), inicio(1), saida (4), carga_total(3), taxa(1)
+Tirando resultado: 4 / 1
+Simulation time: 1
+Berth Status: NN
+First ships: 2 0 
+Stocks: 13 14 17 15 
+Simulation time: 2
+Berth Status: NN
+First ships: 2 0 
+Stocks: 13 14 17 15 
+Alocou navio: Chegada(2), inicio(2), saida (4), carga_total(2), taxa(1)
+Tirando resultado: 4 / 2
+Simulation time: 1
+Berth Status: NN
+First ships: 0 2 
+Stocks: 13 14 17 15 
+Simulation time: 2
+Berth Status: NN
+First ships: 0 2 
+Stocks: 13 14 17 15 
+Alocou navio: Chegada(2), inicio(2), saida (4), carga_total(2), taxa(1)
+Tirando resultado: 4 / 2
+Simulation time: 1
+Berth Status: NN
+First ships: 1 2 
+Stocks: 13 14 17 15 
+Alocou navio: Chegada(1), inicio(1), saida (6), carga_total(5), taxa(1)
+Simulation time: 2
+Berth Status: LN
+First ships: 1 2 
+Stocks: 13 14 17 15 
+Alocou navio: Chegada(2), inicio(2), saida (4), carga_total(2), taxa(1)
+Tirando resultado: 6 / 1
+Tirando resultado: 4 / 2
+Simulation time: 1
+Berth Status: NN
+First ships: 0 1 
+Stocks: 13 14 17 15 
+Alocou navio: Chegada(1), inicio(1), saida (6), carga_total(5), taxa(1)
+Simulation time: 2
+Berth Status: NL
+First ships: 0 1 
+Stocks: 13 14 17 15 
+Simulation time: 3
+Berth Status: NL
+First ships: 0 1 
+Stocks: 13 15 17 15 
+Simulation time: 4
+Berth Status: NL
+First ships: 0 1 
+Stocks: 13 16 17 15 
+Simulation time: 5
+Berth Status: NL
+First ships: 0 1 
+Stocks: 13 17 17 15 
+Simulation time: 6
+Berth Status: NL
+First ships: 0 1 
+Stocks: 13 18 17 15 
+Alocou navio: Chegada(2), inicio(6), saida (8), carga_total(2), taxa(1)
+Tirando resultado: 6 / 1
+Tirando resultado: 8 / 2
+Simulation time: 1
+Berth Status: NN
+First ships: 1 2 
+Stocks: 13 14 17 15 
+Alocou navio: Chegada(1), inicio(1), saida (4), carga_total(3), taxa(1)
+Simulation time: 2
+Berth Status: LN
+First ships: 1 2 
+Stocks: 13 14 17 15 
+Alocou navio: Chegada(2), inicio(2), saida (4), carga_total(2), taxa(1)
+Tirando resultado: 4 / 1
+Tirando resultado: 4 / 2
+Simulation time: 1
+Berth Status: NN
+First ships: 0 1 
+Stocks: 13 14 17 15 
+Alocou navio: Chegada(1), inicio(1), saida (4), carga_total(3), taxa(1)
+Simulation time: 2
+Berth Status: NL
+First ships: 0 1 
+Stocks: 13 14 17 15 
+Simulation time: 3
+Berth Status: NL
+First ships: 0 1 
+Stocks: 13 15 17 15 
+Simulation time: 4
+Berth Status: NL
+First ships: 0 1 
+Stocks: 13 16 17 15 
+Alocou navio: Chegada(2), inicio(4), saida (6), carga_total(2), taxa(1)
+Tirando resultado: 4 / 1
+Tirando resultado: 6 / 2
+Simulation time: 1
+Berth Status: NN
+First ships: 1 2 
+Stocks: 13 14 17 15 
+Alocou navio: Chegada(1), inicio(1), saida (6), carga_total(5), taxa(1)
+Simulation time: 2
+Berth Status: LN
+First ships: 1 2 
+Stocks: 13 14 17 15 
+Alocou navio: Chegada(2), inicio(2), saida (4), carga_total(2), taxa(1)
+Simulation time: 3
+Berth Status: LL
+First ships: 1 2 
+Stocks: 13 15 17 15 
+Simulation time: 4
+Berth Status: LL
+First ships: 1 2 
+Stocks: 14 16 17 15 
+Simulation time: 5
+Berth Status: LN
+First ships: 1 0 
+Stocks: 15 17 17 15 
+Simulation time: 6
+Berth Status: LN
+First ships: 1 0 
+Stocks: 15 18 17 15 
+Alocou navio: Chegada(1), inicio(6), saida (9), carga_total(3), taxa(1)
+Tirando resultado: 6 / 1
+Tirando resultado: 4 / 2
+Tirando resultado: 9 / 1
+Simulation time: 1
+Berth Status: NN
+First ships: 1 1 
+Stocks: 13 14 17 15 
+Alocou navio: Chegada(1), inicio(1), saida (4), carga_total(3), taxa(1)
+Alocou navio: Chegada(1), inicio(1), saida (6), carga_total(5), taxa(1)
+Simulation time: 2
+Berth Status: LL
+First ships: 1 1 
+Stocks: 13 14 17 15 
+Simulation time: 3
+Berth Status: LL
+First ships: 1 1 
+Stocks: 13 16 17 15 
+Simulation time: 4
+Berth Status: LL
+First ships: 1 1 
+Stocks: 13 18 17 15 
+Simulation time: 5
+Berth Status: NL
+First ships: 0 1 
+Stocks: 13 20 17 15 
+Simulation time: 6
+Berth Status: NL
+First ships: 0 1 
+Stocks: 13 21 17 15 
+Alocou navio: Chegada(2), inicio(6), saida (8), carga_total(2), taxa(1)
+Tirando resultado: 4 / 1
+Tirando resultado: 6 / 1
+Tirando resultado: 8 / 2
+Simulation time: 1
+Berth Status: NN
+First ships: 1 1 
+Stocks: 13 14 17 15 
+Alocou navio: Chegada(1), inicio(1), saida (4), carga_total(3), taxa(1)
+Alocou navio: Chegada(1), inicio(1), saida (6), carga_total(5), taxa(1)
+Simulation time: 2
+Berth Status: LL
+First ships: 1 1 
+Stocks: 13 14 17 15 
+Simulation time: 3
+Berth Status: LL
+First ships: 1 1 
+Stocks: 13 16 17 15 
+Simulation time: 4
+Berth Status: LL
+First ships: 1 1 
+Stocks: 13 18 17 15 
+Simulation time: 5
+Berth Status: NL
+First ships: 0 1 
+Stocks: 13 20 17 15 
+Simulation time: 6
+Berth Status: NL
+First ships: 0 1 
+Stocks: 13 21 17 15 
+Alocou navio: Chegada(2), inicio(6), saida (8), carga_total(2), taxa(1)
+Tirando resultado: 4 / 1
+Tirando resultado: 6 / 1
+Tirando resultado: 8 / 2
+Simulation time: 1
+Berth Status: NN
+First ships: 1 2 
+Stocks: 13 14 17 15 
+Alocou navio: Chegada(1), inicio(1), saida (4), carga_total(3), taxa(1)
+Simulation time: 2
+Berth Status: LN
+First ships: 1 2 
+Stocks: 13 14 17 15 
+Alocou navio: Chegada(2), inicio(2), saida (4), carga_total(2), taxa(1)
+Simulation time: 3
+Berth Status: LL
+First ships: 1 2 
+Stocks: 13 15 17 15 
+Simulation time: 4
+Berth Status: LL
+First ships: 1 2 
+Stocks: 14 16 17 15 
+Alocou navio: Chegada(1), inicio(4), saida (9), carga_total(5), taxa(1)
+Tirando resultado: 4 / 1
+Tirando resultado: 4 / 2
+Tirando resultado: 9 / 1
+Simulation time: 1
+Berth Status: NN
+First ships: 1 1 
+Stocks: 13 14 17 15 
+Alocou navio: Chegada(1), inicio(1), saida (4), carga_total(3), taxa(1)
+Alocou navio: Chegada(1), inicio(1), saida (6), carga_total(5), taxa(1)
+Simulation time: 2
+Berth Status: LL
+First ships: 1 1 
+Stocks: 13 14 17 15 
+Simulation time: 3
+Berth Status: LL
+First ships: 1 1 
+Stocks: 13 16 17 15 
+Simulation time: 4
+Berth Status: LL
+First ships: 1 1 
+Stocks: 13 18 17 15 
+Simulation time: 5
+Berth Status: NL
+First ships: 0 1 
+Stocks: 13 20 17 15 
+Simulation time: 6
+Berth Status: NL
+First ships: 0 1 
+Stocks: 13 21 17 15 
+Alocou navio: Chegada(2), inicio(6), saida (8), carga_total(2), taxa(1)
+Tirando resultado: 4 / 1
+Tirando resultado: 6 / 1
+Tirando resultado: 8 / 2
+Simulation time: 1
+Berth Status: NN
+First ships: 1 1 
+Stocks: 13 14 17 15 
+Alocou navio: Chegada(1), inicio(1), saida (4), carga_total(3), taxa(1)
+Alocou navio: Chegada(1), inicio(1), saida (6), carga_total(5), taxa(1)
+Simulation time: 2
+Berth Status: LL
+First ships: 1 1 
+Stocks: 13 14 17 15 
+Simulation time: 3
+Berth Status: LL
+First ships: 1 1 
+Stocks: 13 16 17 15 
+Simulation time: 4
+Berth Status: LL
+First ships: 1 1 
+Stocks: 13 18 17 15 
+Alocou navio: Chegada(2), inicio(4), saida (6), carga_total(2), taxa(1)
+Tirando resultado: 4 / 1
+Tirando resultado: 6 / 1
+Tirando resultado: 6 / 2
+Simulation time: 1
+Berth Status: NN
+First ships: 0 1 
+Stocks: 13 14 17 15 
+Alocou navio: Chegada(1), inicio(1), saida (6), carga_total(5), taxa(1)
+Simulation time: 2
+Berth Status: NL
+First ships: 0 1 
+Stocks: 13 14 17 15 
+Simulation time: 3
+Berth Status: NL
+First ships: 0 1 
+Stocks: 13 15 17 15 
+Simulation time: 4
+Berth Status: NL
+First ships: 0 1 
+Stocks: 13 16 17 15 
+Simulation time: 5
+Berth Status: NL
+First ships: 0 1 
+Stocks: 13 17 17 15 
+Simulation time: 6
+Berth Status: NL
+First ships: 0 1 
+Stocks: 13 18 17 15 
+Alocou navio: Chegada(1), inicio(6), saida (9), carga_total(3), taxa(1)
+Simulation time: 7
+Berth Status: NL
+First ships: 0 1 
+Stocks: 13 19 17 15 
+Simulation time: 8
+Berth Status: NL
+First ships: 0 1 
+Stocks: 13 20 17 15 
+Simulation time: 9
+Berth Status: NL
+First ships: 0 1 
+Stocks: 13 21 17 15 
+Alocou navio: Chegada(2), inicio(9), saida (11), carga_total(2), taxa(1)
+Tirando resultado: 6 / 1
+Tirando resultado: 9 / 1
+Tirando resultado: 11 / 2
+Simulation time: 1
+Berth Status: NN
+First ships: 1 2 
+Stocks: 13 14 17 15 
+Alocou navio: Chegada(1), inicio(1), saida (6), carga_total(5), taxa(1)
+Simulation time: 2
+Berth Status: LN
+First ships: 1 2 
+Stocks: 13 14 17 15 
+Alocou navio: Chegada(2), inicio(2), saida (4), carga_total(2), taxa(1)
+Simulation time: 3
+Berth Status: LL
+First ships: 1 2 
+Stocks: 13 15 17 15 
+Simulation time: 4
+Berth Status: LL
+First ships: 1 2 
+Stocks: 14 16 17 15 
+Simulation time: 5
+Berth Status: LN
+First ships: 1 0 
+Stocks: 15 17 17 15 
+Simulation time: 6
+Berth Status: LN
+First ships: 1 0 
+Stocks: 15 18 17 15 
+Alocou navio: Chegada(1), inicio(6), saida (9), carga_total(3), taxa(1)
+Tirando resultado: 6 / 1
+Tirando resultado: 4 / 2
+Tirando resultado: 9 / 1
+Simulation time: 1
+Berth Status: NN
+First ships: 2 1 
+Stocks: 13 14 17 15 
+Alocou navio: Chegada(1), inicio(1), saida (6), carga_total(5), taxa(1)
+Simulation time: 2
+Berth Status: NL
+First ships: 2 1 
+Stocks: 13 14 17 15 
+Alocou navio: Chegada(2), inicio(2), saida (4), carga_total(2), taxa(1)
+Simulation time: 3
+Berth Status: LL
+First ships: 2 1 
+Stocks: 13 15 17 15 
+Simulation time: 4
+Berth Status: LL
+First ships: 2 1 
+Stocks: 14 16 17 15 
+Alocou navio: Chegada(1), inicio(4), saida (7), carga_total(3), taxa(1)
+Tirando resultado: 6 / 1
+Tirando resultado: 4 / 2
+Tirando resultado: 7 / 1
+Simulation time: 1
+Berth Status: NN
+First ships: 2 1 
+Stocks: 13 14 17 15 
+Alocou navio: Chegada(1), inicio(1), saida (6), carga_total(5), taxa(1)
+Simulation time: 2
+Berth Status: NL
+First ships: 2 1 
+Stocks: 13 14 17 15 
+Alocou navio: Chegada(2), inicio(2), saida (4), carga_total(2), taxa(1)
+Simulation time: 3
+Berth Status: LL
+First ships: 2 1 
+Stocks: 13 15 17 15 
+Simulation time: 4
+Berth Status: LL
+First ships: 2 1 
+Stocks: 14 16 17 15 
+Alocou navio: Chegada(1), inicio(4), saida (7), carga_total(3), taxa(1)
+Tirando resultado: 6 / 1
+Tirando resultado: 4 / 2
+Tirando resultado: 7 / 1
+Simulation time: 1
+Berth Status: NN
+First ships: 1 1 
+Stocks: 13 14 17 15 
+Alocou navio: Chegada(1), inicio(1), saida (4), carga_total(3), taxa(1)
+Alocou navio: Chegada(1), inicio(1), saida (6), carga_total(5), taxa(1)
+Simulation time: 2
+Berth Status: LL
+First ships: 1 1 
+Stocks: 13 14 17 15 
+Simulation time: 3
+Berth Status: LL
+First ships: 1 1 
+Stocks: 13 16 17 15 
+Simulation time: 4
+Berth Status: LL
+First ships: 1 1 
+Stocks: 13 18 17 15 
+Alocou navio: Chegada(2), inicio(4), saida (6), carga_total(2), taxa(1)
+Tirando resultado: 4 / 1
+Tirando resultado: 6 / 1
+Tirando resultado: 6 / 2
+Simulation time: 1
+Berth Status: NN
+First ships: 1 1 
+Stocks: 13 14 17 15 
+Alocou navio: Chegada(1), inicio(1), saida (4), carga_total(3), taxa(1)
+Alocou navio: Chegada(1), inicio(1), saida (6), carga_total(5), taxa(1)
+Simulation time: 2
+Berth Status: LL
+First ships: 1 1 
+Stocks: 13 14 17 15 
+Simulation time: 3
+Berth Status: LL
+First ships: 1 1 
+Stocks: 13 16 17 15 
+Simulation time: 4
+Berth Status: LL
+First ships: 1 1 
+Stocks: 13 18 17 15 
+Simulation time: 5
+Berth Status: NL
+First ships: 0 1 
+Stocks: 13 20 17 15 
+Simulation time: 6
+Berth Status: NL
+First ships: 0 1 
+Stocks: 13 21 17 15 
+Alocou navio: Chegada(2), inicio(6), saida (8), carga_total(2), taxa(1)
+Tirando resultado: 4 / 1
+Tirando resultado: 6 / 1
+Tirando resultado: 8 / 2
+Simulation time: 1
+Berth Status: NN
+First ships: 2 1 
+Stocks: 13 14 17 15 
+Alocou navio: Chegada(1), inicio(1), saida (6), carga_total(5), taxa(1)
+Simulation time: 2
+Berth Status: NL
+First ships: 2 1 
+Stocks: 13 14 17 15 
+Alocou navio: Chegada(2), inicio(2), saida (4), carga_total(2), taxa(1)
+Simulation time: 3
+Berth Status: LL
+First ships: 2 1 
+Stocks: 13 15 17 15 
+Simulation time: 4
+Berth Status: LL
+First ships: 2 1 
+Stocks: 14 16 17 15 
+Simulation time: 5
+Berth Status: NL
+First ships: 0 1 
+Stocks: 15 17 17 15 
+Simulation time: 6
+Berth Status: NL
+First ships: 0 1 
+Stocks: 15 18 17 15 
+Alocou navio: Chegada(1), inicio(6), saida (9), carga_total(3), taxa(1)
+Tirando resultado: 6 / 1
+Tirando resultado: 4 / 2
+Tirando resultado: 9 / 1
+Simulation time: 1
+Berth Status: NN
+First ships: 1 0 
+Stocks: 13 14 17 15 
+Alocou navio: Chegada(1), inicio(1), saida (6), carga_total(5), taxa(1)
+Simulation time: 2
+Berth Status: LN
+First ships: 1 0 
+Stocks: 13 14 17 15 
+Simulation time: 3
+Berth Status: LN
+First ships: 1 0 
+Stocks: 13 15 17 15 
+Simulation time: 4
+Berth Status: LN
+First ships: 1 0 
+Stocks: 13 16 17 15 
+Simulation time: 5
+Berth Status: LN
+First ships: 1 0 
+Stocks: 13 17 17 15 
+Simulation time: 6
+Berth Status: LN
+First ships: 1 0 
+Stocks: 13 18 17 15 
+Alocou navio: Chegada(1), inicio(6), saida (9), carga_total(3), taxa(1)
+Simulation time: 7
+Berth Status: LN
+First ships: 1 0 
+Stocks: 13 19 17 15 
+Simulation time: 8
+Berth Status: LN
+First ships: 1 0 
+Stocks: 13 20 17 15 
+Simulation time: 9
+Berth Status: LN
+First ships: 1 0 
+Stocks: 13 21 17 15 
+Alocou navio: Chegada(2), inicio(9), saida (11), carga_total(2), taxa(1)
+Tirando resultado: 6 / 1
+Tirando resultado: 9 / 1
+Tirando resultado: 11 / 2
+Local,./dat/eu.dat1,12,0,12
+Time: 0 seconds used.

@@ -1,0 +1,2582 @@
+[INFO] Preparing environment to run application bap2 on…
+
+[INFO] Your request is queued waiting for a node to become available...
+
+[INFO] Starting Runner @ Sat Jul 18 03:08:11 UTC 2015
+
+[DOCKER] Step 0 : FROM codenvy/cpp
+
+[DOCKER] Trying to pull repository docker.io/codenvy/cpp ...
+
+[DOCKER] 
+
+[DOCKER] 16002f1ac13e: Pulling image (latest) from docker.io/codenvy/cpp 
+
+[DOCKER] 16002f1ac13e: Pulling image (latest) from docker.io/codenvy/cpp, endpoint: https://registry-1.docker.io/v1/ 
+
+[DOCKER] 16002f1ac13e: Pulling dependent layers 
+
+[DOCKER] 511136ea3c5a: Download complete 
+
+[DOCKER] 3b3a4796eef1: Download complete 
+
+[DOCKER] 50ec2d202fe8: Download complete 
+
+[DOCKER] 4d6bf5b582e4: Download complete 
+
+[DOCKER] 316bc7792e25: Download complete 
+
+[DOCKER] 574d7d93dc3c: Download complete 
+
+[DOCKER] 97297440ca28: Download complete 
+
+[DOCKER] 2a37b460b9c9: Download complete 
+
+[DOCKER] 5b624194a36a: Download complete 
+
+[DOCKER] 545ee0493cf4: Download complete 
+
+[DOCKER] 559c12c7711b: Download complete 
+
+[DOCKER] b9b047638ea4: Download complete 
+
+[DOCKER] 3238ab333846: Download complete 
+
+[DOCKER] 16002f1ac13e: Download complete 
+
+[DOCKER] 16002f1ac13e: Download complete 
+
+[DOCKER] Status: Image is up to date for docker.io/codenvy/cpp:latest 
+
+[DOCKER] ---> 16002f1ac13e
+
+[DOCKER] Step 1 : ENV CODENVY_APP_BIND_DIR /home/user/app
+
+[DOCKER] ---> Running in 84f7c282f95d
+
+[DOCKER] ---> e134ed60d26c
+
+[DOCKER] Removing intermediate container 84f7c282f95d
+
+[DOCKER] Step 2 : VOLUME /home/user/app
+
+[DOCKER] ---> Running in df50c46345fd
+
+[DOCKER] ---> b87014a18b0c
+
+[DOCKER] Removing intermediate container df50c46345fd
+
+[DOCKER] Step 3 : CMD cd /home/user/app && make && ./bercos
+
+[DOCKER] ---> Running in b1c0f2d668fb
+
+[DOCKER] ---> 3c2a11478fa5
+
+[DOCKER] Removing intermediate container b1c0f2d668fb
+
+[DOCKER] Successfully built 3c2a11478fa5
+
+[STDOUT] Building src/grasp.cc
+
+[INFO] Environment preparation done. Application bap2 starting up…
+
+[STDOUT] Building src/porto.cc
+
+[STDOUT] Building src/main.cc
+
+[STDOUT] Building src/pabSolution.cc
+
+[STDERR] src/pabSolution.cc: In member function 'int pabSolution::simulate(std::vector<std::vector<Porto::Navio> >, unsigned int&, bool)':
+
+[STDERR] src/pabSolution.cc:243:17: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+
+[STDERR]      if (n.saida == t) {
+
+[STDERR]                  ^
+
+[STDOUT] Building src/bnb.cc
+
+[STDOUT] mkdir bin
+
+[STDOUT] mkdir obj
+
+[STDOUT] Building executable
+
+[STDOUT] Problem: ./dat/real.dat
+
+[STDOUT] Local,./dat/real.dat1,185,0,185
+
+[STDOUT] Local,./dat/real.dat1,190,0,190
+
+[STDOUT] Local,./dat/real.dat1,186,0,186
+
+[STDOUT] Local,./dat/real.dat1,194,0,194
+
+[STDOUT] Local,./dat/real.dat1,176,0,176
+
+[STDOUT] Local,./dat/real.dat1,181,0,181
+
+[STDOUT] Local,./dat/real.dat1,195,0,195
+
+[STDOUT] Local,./dat/real.dat1,185,0,185
+
+[STDOUT] Local,./dat/real.dat1,190,0,190
+
+[STDOUT] Local,./dat/real.dat1,182,0,182
+
+[STDOUT] Local,./dat/real.dat1,184,0,184
+
+[STDOUT] Local,./dat/real.dat1,190,0,190
+
+[STDOUT] Local,./dat/real.dat1,192,0,192
+
+[STDOUT] Local,./dat/real.dat1,182,0,182
+
+[STDOUT] Local,./dat/real.dat1,173,0,173
+
+[STDOUT] Local,./dat/real.dat1,183,0,183
+
+[STDOUT] Local,./dat/real.dat1,186,0,186
+
+[STDOUT] Local,./dat/real.dat1,182,0,182
+
+[STDOUT] Local,./dat/real.dat1,179,0,179
+
+[STDOUT] Local,./dat/real.dat1,187,0,187
+
+[STDOUT] Local,./dat/real.dat1,185,0,185
+
+[STDOUT] Local,./dat/real.dat1,182,0,182
+
+[STDOUT] Local,./dat/real.dat1,185,0,185
+
+[STDOUT] Local,./dat/real.dat1,179,0,179
+
+[STDOUT] Local,./dat/real.dat1,183,0,183
+
+[STDOUT] Local,./dat/real.dat1,187,0,187
+
+[STDOUT] Local,./dat/real.dat1,188,0,188
+
+[STDOUT] Local,./dat/real.dat1,178,0,178
+
+[STDOUT] Local,./dat/real.dat1,180,0,180
+
+[STDOUT] Local,./dat/real.dat1,177,0,177
+
+[STDOUT] Local,./dat/real.dat1,201,0,201
+
+[STDOUT] Local,./dat/real.dat1,185,0,185
+
+[STDOUT] Local,./dat/real.dat1,174,0,174
+
+[STDOUT] Local,./dat/real.dat1,176,0,176
+
+[STDOUT] Local,./dat/real.dat1,201,0,201
+
+[STDOUT] Local,./dat/real.dat1,182,0,182
+
+[STDOUT] Local,./dat/real.dat1,198,0,198
+
+[STDOUT] Local,./dat/real.dat1,196,0,196
+
+[STDOUT] Local,./dat/real.dat1,175,0,175
+
+[STDOUT] Local,./dat/real.dat1,180,0,180
+
+[STDOUT] Local,./dat/real.dat1,193,0,193
+
+[STDOUT] Local,./dat/real.dat1,187,0,187
+
+[STDOUT] Local,./dat/real.dat1,184,0,184
+
+[STDOUT] Local,./dat/real.dat1,182,0,182
+
+[STDOUT] Local,./dat/real.dat1,197,0,197
+
+[STDOUT] Local,./dat/real.dat1,192,0,192
+
+[STDOUT] Local,./dat/real.dat1,196,0,196
+
+[STDOUT] Local,./dat/real.dat1,178,0,178
+
+[STDOUT] Local,./dat/real.dat1,186,0,186
+
+[STDOUT] Local,./dat/real.dat1,194,0,194
+
+[STDOUT] Local,./dat/real.dat1,188,0,188
+
+[STDOUT] Local,./dat/real.dat1,186,0,186
+
+[STDOUT] Local,./dat/real.dat1,194,0,194
+
+[STDOUT] Local,./dat/real.dat1,182,0,182
+
+[STDOUT] Local,./dat/real.dat1,179,0,179
+
+[STDOUT] Local,./dat/real.dat1,177,0,177
+
+[STDOUT] Local,./dat/real.dat1,198,0,198
+
+[STDOUT] Local,./dat/real.dat1,201,0,201
+
+[STDOUT] Local,./dat/real.dat1,206,0,206
+
+[STDOUT] Local,./dat/real.dat1,183,0,183
+
+[STDOUT] Local,./dat/real.dat1,182,0,182
+
+[STDOUT] Local,./dat/real.dat1,179,0,179
+
+[STDOUT] Local,./dat/real.dat1,182,0,182
+[INFO] Preparing environment to run application bap2 on…
+
+[INFO] Your request is queued waiting for a node to become available...
+
+[INFO] Starting Runner @ Sat Jul 18 03:08:38 UTC 2015
+
+[DOCKER] Step 0 : FROM codenvy/cpp
+
+[DOCKER] Trying to pull repository docker.io/codenvy/cpp ...
+
+[DOCKER] 
+
+[DOCKER] 16002f1ac13e: Pulling image (latest) from docker.io/codenvy/cpp 
+
+[DOCKER] 16002f1ac13e: Pulling image (latest) from docker.io/codenvy/cpp, endpoint: https://registry-1.docker.io/v1/ 
+
+[DOCKER] 16002f1ac13e: Pulling dependent layers 
+
+[DOCKER] 511136ea3c5a: Download complete 
+
+[DOCKER] 3b3a4796eef1: Download complete 
+
+[DOCKER] 50ec2d202fe8: Download complete 
+
+[DOCKER] 4d6bf5b582e4: Download complete 
+
+[DOCKER] 316bc7792e25: Download complete 
+
+[DOCKER] 574d7d93dc3c: Download complete 
+
+[DOCKER] 97297440ca28: Download complete 
+
+[DOCKER] 2a37b460b9c9: Download complete 
+
+[DOCKER] 5b624194a36a: Download complete 
+
+[DOCKER] 545ee0493cf4: Download complete 
+
+[DOCKER] 559c12c7711b: Download complete 
+
+[DOCKER] b9b047638ea4: Download complete 
+
+[DOCKER] 3238ab333846: Download complete 
+
+[DOCKER] 16002f1ac13e: Download complete 
+
+[DOCKER] 16002f1ac13e: Download complete 
+
+[DOCKER] Status: Image is up to date for docker.io/codenvy/cpp:latest 
+
+[DOCKER] ---> 16002f1ac13e
+
+[DOCKER] Step 1 : ENV CODENVY_APP_BIND_DIR /home/user/app
+
+[DOCKER] ---> Running in ba0338ec480c
+
+[DOCKER] ---> 98852ed0653a
+
+[DOCKER] Removing intermediate container ba0338ec480c
+
+[DOCKER] Step 2 : VOLUME /home/user/app
+
+[DOCKER] ---> Running in 56179ce5cf5e
+
+[DOCKER] ---> 0ae0ab8b0cf9
+
+[DOCKER] Removing intermediate container 56179ce5cf5e
+
+[DOCKER] Step 3 : CMD cd /home/user/app && make && ./bercos
+
+[DOCKER] ---> Running in e3dab907d91d
+
+[DOCKER] ---> c638eceb8bf7
+
+[DOCKER] Removing intermediate container e3dab907d91d
+
+[DOCKER] Successfully built c638eceb8bf7
+
+[INFO] Environment preparation done. Application bap2 starting up…
+
+[STDOUT] Building src/porto.cc
+
+[STDOUT] Building src/main.cc
+
+[STDOUT] Building src/pabSolution.cc
+
+[STDERR] src/pabSolution.cc: In member function 'int pabSolution::simulate(std::vector<std::vector<Porto::Navio> >, unsigned int&, bool)':
+
+[STDERR] src/pabSolution.cc:243:17: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+
+[STDERR]      if (n.saida == t) {
+
+[STDERR]                  ^
+
+[STDOUT] Building src/bnb.cc
+
+[STDOUT] mkdir bin
+
+[STDOUT] mkdir obj
+
+[STDOUT] Building executable
+
+[STDOUT] Problem: ./dat/real.dat
+
+[STDOUT] Local,./dat/real.dat1,190,0,190
+
+[STDOUT] Local,./dat/real.dat1,186,0,186
+
+[STDOUT] Local,./dat/real.dat1,184,0,184
+
+[STDOUT] Local,./dat/real.dat1,180,0,180
+
+[STDOUT] Local,./dat/real.dat1,191,0,191
+
+[STDOUT] Local,./dat/real.dat1,177,0,177
+
+[STDOUT] Local,./dat/real.dat1,187,0,187
+
+[STDOUT] Local,./dat/real.dat1,182,0,182
+
+[STDOUT] Local,./dat/real.dat1,198,0,198
+
+[STDOUT] Local,./dat/real.dat1,184,0,184
+
+[STDOUT] Local,./dat/real.dat1,186,0,186
+
+[STDOUT] Local,./dat/real.dat1,181,0,181
+
+[STDOUT] Local,./dat/real.dat1,188,0,188
+
+[STDOUT] Local,./dat/real.dat1,181,0,181
+
+[STDOUT] Local,./dat/real.dat1,181,0,181
+
+[STDOUT] Local,./dat/real.dat1,187,0,187
+
+[STDOUT] Local,./dat/real.dat1,177,0,177
+
+[STDOUT] Local,./dat/real.dat1,176,0,176
+
+[STDOUT] Local,./dat/real.dat1,200,0,200
+
+[STDOUT] Local,./dat/real.dat1,191,0,191
+
+[STDOUT] Local,./dat/real.dat1,196,0,196
+
+[STDOUT] Local,./dat/real.dat1,186,0,186
+
+[STDOUT] Local,./dat/real.dat1,174,0,174
+
+[STDOUT] Local,./dat/real.dat1,190,0,190
+
+[STDOUT] Local,./dat/real.dat1,191,0,191
+
+[STDOUT] Local,./dat/real.dat1,187,0,187
+
+[STDOUT] Local,./dat/real.dat1,187,0,187
+
+[STDOUT] Local,./dat/real.dat1,185,0,185
+
+[STDOUT] Local,./dat/real.dat1,188,0,188
+
+[STDOUT] Local,./dat/real.dat1,185,0,185
+
+[STDOUT] Local,./dat/real.dat1,188,0,188
+
+[STDOUT] Local,./dat/real.dat1,185,0,185
+
+[STDOUT] Local,./dat/real.dat1,188,0,188
+
+[STDOUT] Local,./dat/real.dat1,198,0,198
+
+[STDOUT] Local,./dat/real.dat1,197,0,197
+
+[STDOUT] Local,./dat/real.dat1,173,0,173
+
+[STDOUT] Local,./dat/real.dat1,179,0,179
+
+[STDOUT] Local,./dat/real.dat1,195,0,195
+
+[STDOUT] Local,./dat/real.dat1,180,0,180
+
+[STDOUT] Local,./dat/real.dat1,178,0,178
+
+[STDOUT] Local,./dat/real.dat1,179,0,179
+
+[STDOUT] Local,./dat/real.dat1,187,0,187
+
+[STDOUT] Local,./dat/real.dat1,183,0,183
+
+[STDOUT] Local,./dat/real.dat1,204,0,204
+
+[STDOUT] Local,./dat/real.dat1,176,0,176
+
+[STDOUT] Local,./dat/real.dat1,186,0,186
+
+[STDOUT] Local,./dat/real.dat1,187,0,187
+
+[STDOUT] Local,./dat/real.dat1,205,0,205
+
+[STDOUT] Local,./dat/real.dat1,182,0,182
+
+[STDOUT] Local,./dat/real.dat1,181,0,181
+
+[STDOUT] Local,./dat/real.dat1,182,0,182
+
+[STDOUT] Local,./dat/real.dat1,175,0,175
+
+[STDOUT] Local,./dat/real.dat1,185,0,185
+
+[STDOUT] Local,./dat/real.dat1,182,0,182
+
+[STDOUT] Local,./dat/real.dat1,185,0,185
+
+[STDOUT] Local,./dat/real.dat1,177,0,177
+
+[STDOUT] Local,./dat/real.dat1,183,0,183
+
+[STDOUT] Local,./dat/real.dat1,210,0,210
+
+[STDOUT] Local,./dat/real.dat1,190,0,190
+
+[STDOUT] Local,./dat/real.dat1,179,0,179
+
+[STDOUT] Local,./dat/real.dat1,192,0,192
+
+[STDOUT] Local,./dat/real.dat1,194,0,194
+
+[STDOUT] Local,./dat/real.dat1,193,0,193
+
+[STDOUT] Local,./dat/real.dat1,188,0,188
+[INFO] Preparing environment to run application bap2 on…
+
+[INFO] Starting Runner @ Sat Jul 18 03:08:40 UTC 2015
+
+[DOCKER] Step 0 : FROM codenvy/cpp
+
+[DOCKER] Trying to pull repository docker.io/codenvy/cpp ...
+
+[DOCKER] 
+
+[DOCKER] 16002f1ac13e: Pulling image (latest) from docker.io/codenvy/cpp 
+
+[DOCKER] 16002f1ac13e: Pulling image (latest) from docker.io/codenvy/cpp, endpoint: https://registry-1.docker.io/v1/ 
+
+[DOCKER] 16002f1ac13e: Pulling dependent layers 
+
+[DOCKER] 511136ea3c5a: Download complete 
+
+[DOCKER] 3b3a4796eef1: Download complete 
+
+[DOCKER] 50ec2d202fe8: Download complete 
+
+[DOCKER] 4d6bf5b582e4: Download complete 
+
+[DOCKER] 316bc7792e25: Download complete 
+
+[DOCKER] 574d7d93dc3c: Download complete 
+
+[DOCKER] 97297440ca28: Download complete 
+
+[DOCKER] 2a37b460b9c9: Download complete 
+
+[DOCKER] 5b624194a36a: Download complete 
+
+[DOCKER] 545ee0493cf4: Download complete 
+
+[DOCKER] 559c12c7711b: Download complete 
+
+[DOCKER] b9b047638ea4: Download complete 
+
+[DOCKER] 3238ab333846: Download complete 
+
+[DOCKER] 16002f1ac13e: Download complete 
+
+[DOCKER] 16002f1ac13e: Download complete 
+
+[DOCKER] Status: Image is up to date for docker.io/codenvy/cpp:latest 
+
+[DOCKER] ---> 16002f1ac13e
+
+[DOCKER] Step 1 : ENV CODENVY_APP_BIND_DIR /home/user/app
+
+[DOCKER] ---> Using cache
+
+[DOCKER] ---> e134ed60d26c
+
+[DOCKER] Step 2 : VOLUME /home/user/app
+
+[DOCKER] ---> Using cache
+
+[DOCKER] ---> b87014a18b0c
+
+[DOCKER] Step 3 : CMD cd /home/user/app && make && ./bercos
+
+[DOCKER] ---> Using cache
+
+[DOCKER] ---> 3c2a11478fa5
+
+[DOCKER] Successfully built 3c2a11478fa5
+
+[STDOUT] Building src/grasp.cc
+
+[INFO] Environment preparation done. Application bap2 starting up…
+
+[STDOUT] Building src/porto.cc
+
+[STDOUT] Building src/main.cc
+
+[STDOUT] Building src/pabSolution.cc
+
+[STDERR] src/pabSolution.cc: In member function 'int pabSolution::simulate(std::vector<std::vector<Porto::Navio> >, unsigned int&, bool)':
+
+[STDERR] src/pabSolution.cc:243:17: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+
+[STDERR]      if (n.saida == t) {
+
+[STDERR]                  ^
+
+[STDOUT] Building src/bnb.cc
+
+[STDOUT] mkdir bin
+
+[STDOUT] mkdir obj
+
+[STDOUT] Building executable
+
+[STDOUT] Problem: ./dat/real.dat
+
+[STDOUT] Local,./dat/real.dat1,190,0,190
+
+[STDOUT] Local,./dat/real.dat1,178,0,178
+
+[STDOUT] Local,./dat/real.dat1,178,0,178
+
+[STDOUT] Local,./dat/real.dat1,178,0,178
+
+[STDOUT] Local,./dat/real.dat1,180,0,180
+
+[STDOUT] Local,./dat/real.dat1,182,0,182
+
+[STDOUT] Local,./dat/real.dat1,185,0,185
+
+[STDOUT] Local,./dat/real.dat1,174,0,174
+
+[STDOUT] Local,./dat/real.dat1,187,0,187
+
+[STDOUT] Local,./dat/real.dat1,201,0,201
+
+[STDOUT] Local,./dat/real.dat1,184,0,184
+
+[STDOUT] Local,./dat/real.dat1,196,0,196
+
+[STDOUT] Local,./dat/real.dat1,184,0,184
+
+[STDOUT] Local,./dat/real.dat1,185,0,185
+
+[STDOUT] Local,./dat/real.dat1,195,0,195
+
+[STDOUT] Local,./dat/real.dat1,183,0,183
+
+[STDOUT] Local,./dat/real.dat1,184,0,184
+
+[STDOUT] Local,./dat/real.dat1,179,0,179
+
+[STDOUT] Local,./dat/real.dat1,187,0,187
+
+[STDOUT] Local,./dat/real.dat1,180,0,180
+
+[STDOUT] Local,./dat/real.dat1,196,0,196
+
+[STDOUT] Local,./dat/real.dat1,188,0,188
+
+[STDOUT] Local,./dat/real.dat1,187,0,187
+
+[STDOUT] Local,./dat/real.dat1,194,0,194
+
+[STDOUT] Local,./dat/real.dat1,178,0,178
+
+[STDOUT] Local,./dat/real.dat1,182,0,182
+
+[STDOUT] Local,./dat/real.dat1,191,0,191
+
+[STDOUT] Local,./dat/real.dat1,180,0,180
+
+[STDOUT] Local,./dat/real.dat1,187,0,187
+
+[STDOUT] Local,./dat/real.dat1,188,0,188
+
+[STDOUT] Local,./dat/real.dat1,179,0,179
+
+[STDOUT] Local,./dat/real.dat1,186,0,186
+
+[STDOUT] Local,./dat/real.dat1,184,0,184
+
+[STDOUT] Local,./dat/real.dat1,189,0,189
+
+[STDOUT] Local,./dat/real.dat1,199,0,199
+
+[STDOUT] Local,./dat/real.dat1,184,0,184
+
+[STDOUT] Local,./dat/real.dat1,200,0,200
+
+[STDOUT] Local,./dat/real.dat1,186,0,186
+
+[STDOUT] Local,./dat/real.dat1,196,0,196
+
+[STDOUT] Local,./dat/real.dat1,180,0,180
+
+[STDOUT] Local,./dat/real.dat1,194,0,194
+
+[STDOUT] Local,./dat/real.dat1,193,0,193
+
+[STDOUT] Local,./dat/real.dat1,192,0,192
+
+[STDOUT] Local,./dat/real.dat1,174,0,174
+
+[STDOUT] Local,./dat/real.dat1,186,0,186
+
+[STDOUT] Local,./dat/real.dat1,190,0,190
+
+[STDOUT] Local,./dat/real.dat1,192,0,192
+
+[STDOUT] Local,./dat/real.dat1,178,0,178
+
+[STDOUT] Local,./dat/real.dat1,176,0,176
+
+[STDOUT] Local,./dat/real.dat1,188,0,188
+
+[STDOUT] Local,./dat/real.dat1,176,0,176
+
+[STDOUT] Local,./dat/real.dat1,197,0,197
+
+[STDOUT] Local,./dat/real.dat1,184,0,184
+
+[STDOUT] Local,./dat/real.dat1,180,0,180
+
+[STDOUT] Local,./dat/real.dat1,182,0,182
+
+[STDOUT] Local,./dat/real.dat1,173,0,173
+
+[STDOUT] Local,./dat/real.dat1,183,0,183
+
+[STDOUT] Local,./dat/real.dat1,194,0,194
+
+[STDOUT] Local,./dat/real.dat1,196,0,196
+
+[STDOUT] Local,./dat/real.dat1,174,0,174
+
+[STDOUT] Local,./dat/real.dat1,184,0,184
+
+[STDOUT] Local,./dat/real.dat1,179,0,179
+
+[STDOUT] Local,./dat/real.dat1,180,0,180
+
+[STDOUT] Local,./dat/real.dat1,199,0,199
+
+[STDOUT] Local,./dat/real.dat1,180,0,180
+
+[STDOUT] Local,./dat/real.dat1,200,0,200
+
+[STDOUT] Local,./dat/real.dat1,175,0,175
+
+[STDOUT] Local,./dat/real.dat1,173,0,173
+
+[STDOUT] Local,./dat/real.dat1,188,0,188
+
+[STDOUT] Local,./dat/real.dat1,192,0,192
+
+[STDOUT] Local,./dat/real.dat1,178,0,178
+
+[STDOUT] Local,./dat/real.dat1,182,0,182
+
+[STDOUT] Local,./dat/real.dat1,196,0,196
+
+[STDOUT] Local,./dat/real.dat1,179,0,179
+
+[STDOUT] Local,./dat/real.dat1,186,0,186
+
+[STDOUT] Local,./dat/real.dat1,179,0,179
+
+[STDOUT] Local,./dat/real.dat1,191,0,191
+
+[STDOUT] Local,./dat/real.dat1,184,0,184
+
+[STDOUT] Local,./dat/real.dat1,179,0,179
+
+[STDOUT] Local,./dat/real.dat1,184,0,184
+
+[INFO] Application bap2 has been shutdown.
+[INFO] Preparing environment to run application bap2 on…
+
+[INFO] Starting Runner @ Sat Jul 18 03:08:41 UTC 2015
+
+[DOCKER] Step 0 : FROM codenvy/cpp
+
+[DOCKER] Trying to pull repository docker.io/codenvy/cpp ...
+
+[DOCKER] 
+
+[DOCKER] 16002f1ac13e: Pulling image (latest) from docker.io/codenvy/cpp 
+
+[DOCKER] 16002f1ac13e: Pulling image (latest) from docker.io/codenvy/cpp, endpoint: https://registry-1.docker.io/v1/ 
+
+[DOCKER] 16002f1ac13e: Pulling dependent layers 
+
+[DOCKER] 511136ea3c5a: Download complete 
+
+[DOCKER] 3b3a4796eef1: Download complete 
+
+[DOCKER] 50ec2d202fe8: Download complete 
+
+[DOCKER] 4d6bf5b582e4: Download complete 
+
+[DOCKER] 316bc7792e25: Download complete 
+
+[DOCKER] 574d7d93dc3c: Download complete 
+
+[DOCKER] 97297440ca28: Download complete 
+
+[DOCKER] 2a37b460b9c9: Download complete 
+
+[DOCKER] 5b624194a36a: Download complete 
+
+[DOCKER] 545ee0493cf4: Download complete 
+
+[DOCKER] 559c12c7711b: Download complete 
+
+[DOCKER] b9b047638ea4: Download complete 
+
+[DOCKER] 3238ab333846: Download complete 
+
+[DOCKER] 16002f1ac13e: Download complete 
+
+[DOCKER] 16002f1ac13e: Download complete 
+
+[DOCKER] Status: Image is up to date for docker.io/codenvy/cpp:latest 
+
+[DOCKER] ---> 16002f1ac13e
+
+[DOCKER] Step 1 : ENV CODENVY_APP_BIND_DIR /home/user/app
+
+[DOCKER] ---> Running in 47fe9314833c
+
+[DOCKER] ---> fd08cd558625
+
+[DOCKER] Removing intermediate container 47fe9314833c
+
+[DOCKER] Step 2 : VOLUME /home/user/app
+
+[DOCKER] ---> Running in 46809ff58beb
+
+[DOCKER] ---> f3b985e033a2
+
+[DOCKER] Removing intermediate container 46809ff58beb
+
+[DOCKER] Step 3 : CMD cd /home/user/app && make && ./bercos
+
+[DOCKER] ---> Running in f0f870b720ee
+
+[DOCKER] ---> 8c00a2b033a5
+
+[DOCKER] Removing intermediate container f0f870b720ee
+
+[DOCKER] Successfully built 8c00a2b033a5
+
+[STDOUT] Building src/grasp.cc
+
+[INFO] Environment preparation done. Application bap2 starting up…
+
+[STDOUT] Building src/porto.cc
+
+[STDOUT] Building src/main.cc
+
+[STDOUT] Building src/pabSolution.cc
+
+[STDERR] src/pabSolution.cc: In member function 'int pabSolution::simulate(std::vector<std::vector<Porto::Navio> >, unsigned int&, bool)':
+
+[STDERR] src/pabSolution.cc:243:17: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+
+[STDERR]      if (n.saida == t) {
+
+[STDERR]                  ^
+
+[STDOUT] Building src/bnb.cc
+
+[STDOUT] mkdir bin
+
+[STDOUT] mkdir obj
+
+[STDOUT] Building executable
+
+[STDOUT] Problem: ./dat/real.dat
+
+[STDOUT] Local,./dat/real.dat1,187,0,187
+
+[STDOUT] Local,./dat/real.dat1,188,0,188
+
+[STDOUT] Local,./dat/real.dat1,179,0,179
+
+[STDOUT] Local,./dat/real.dat1,180,0,180
+
+[STDOUT] Local,./dat/real.dat1,174,0,174
+
+[STDOUT] Local,./dat/real.dat1,180,0,180
+
+[STDOUT] Local,./dat/real.dat1,206,0,206
+
+[STDOUT] Local,./dat/real.dat1,180,0,180
+
+[STDOUT] Local,./dat/real.dat1,186,0,186
+
+[STDOUT] Local,./dat/real.dat1,183,0,183
+
+[STDOUT] Local,./dat/real.dat1,187,0,187
+
+[STDOUT] Local,./dat/real.dat1,191,0,191
+
+[STDOUT] Local,./dat/real.dat1,183,0,183
+
+[STDOUT] Local,./dat/real.dat1,188,0,188
+
+[STDOUT] Local,./dat/real.dat1,203,0,203
+
+[STDOUT] Local,./dat/real.dat1,179,0,179
+
+[STDOUT] Local,./dat/real.dat1,181,0,181
+
+[STDOUT] Local,./dat/real.dat1,193,0,193
+
+[STDOUT] Local,./dat/real.dat1,180,0,180
+
+[STDOUT] Local,./dat/real.dat1,186,0,186
+
+[STDOUT] Local,./dat/real.dat1,175,0,175
+
+[STDOUT] Local,./dat/real.dat1,183,0,183
+
+[STDOUT] Local,./dat/real.dat1,184,0,184
+
+[STDOUT] Local,./dat/real.dat1,178,0,178
+
+[STDOUT] Local,./dat/real.dat1,192,0,192
+
+[STDOUT] Local,./dat/real.dat1,170,0,170
+
+[STDOUT] Local,./dat/real.dat1,187,0,187
+
+[STDOUT] Local,./dat/real.dat1,200,0,200
+
+[STDOUT] Local,./dat/real.dat1,188,0,188
+
+[STDOUT] Local,./dat/real.dat1,195,0,195
+
+[STDOUT] Local,./dat/real.dat1,181,0,181
+
+[STDOUT] Local,./dat/real.dat1,176,0,176
+
+[STDOUT] Local,./dat/real.dat1,194,0,194
+
+[STDOUT] Local,./dat/real.dat1,199,0,199
+
+[STDOUT] Local,./dat/real.dat1,173,0,173
+
+[STDOUT] Local,./dat/real.dat1,183,0,183
+
+[STDOUT] Local,./dat/real.dat1,175,0,175
+
+[STDOUT] Local,./dat/real.dat1,183,0,183
+
+[STDOUT] Local,./dat/real.dat1,183,0,183
+
+[STDOUT] Local,./dat/real.dat1,196,0,196
+
+[STDOUT] Local,./dat/real.dat1,182,0,182
+
+[STDOUT] Local,./dat/real.dat1,183,0,183
+
+[STDOUT] Local,./dat/real.dat1,183,0,183
+
+[STDOUT] Local,./dat/real.dat1,182,0,182
+
+[STDOUT] Local,./dat/real.dat1,178,0,178
+
+[STDOUT] Local,./dat/real.dat1,192,0,192
+
+[STDOUT] Local,./dat/real.dat1,184,0,184
+
+[STDOUT] Local,./dat/real.dat1,184,0,184
+
+[STDOUT] Local,./dat/real.dat1,181,0,181
+
+[STDOUT] Local,./dat/real.dat1,175,0,175
+
+[STDOUT] Local,./dat/real.dat1,184,0,184
+
+[STDOUT] Local,./dat/real.dat1,181,0,181
+
+[STDOUT] Local,./dat/real.dat1,180,0,180
+
+[STDOUT] Local,./dat/real.dat1,194,0,194
+
+[STDOUT] Local,./dat/real.dat1,179,0,179
+
+[STDOUT] Local,./dat/real.dat1,195,0,195
+
+[STDOUT] Local,./dat/real.dat1,187,0,187
+
+[STDOUT] Local,./dat/real.dat1,175,0,175
+
+[STDOUT] Local,./dat/real.dat1,178,0,178
+
+[STDOUT] Local,./dat/real.dat1,185,0,185
+
+[STDOUT] Local,./dat/real.dat1,177,0,177
+
+[STDOUT] Local,./dat/real.dat1,182,0,182
+
+[STDOUT] Local,./dat/real.dat1,183,0,183
+
+[STDOUT] Local,./dat/real.dat1,182,0,182
+
+[STDOUT] Local,./dat/real.dat1,184,0,184
+
+[STDOUT] Local,./dat/real.dat1,175,0,175
+
+[STDOUT] Local,./dat/real.dat1,188,0,188
+
+[STDOUT] Local,./dat/real.dat1,185,0,185
+
+[STDOUT] Local,./dat/real.dat1,185,0,185
+
+[STDOUT] Local,./dat/real.dat1,186,0,186
+
+[STDOUT] Local,./dat/real.dat1,188,0,188
+
+[STDOUT] Local,./dat/real.dat1,178,0,178
+
+[STDOUT] Local,./dat/real.dat1,192,0,192
+
+[STDOUT] Local,./dat/real.dat1,190,0,190
+
+[STDOUT] Local,./dat/real.dat1,193,0,193
+
+[STDOUT] Local,./dat/real.dat1,186,0,186
+
+[STDOUT] Local,./dat/real.dat1,184,0,184
+
+[STDOUT] Local,./dat/real.dat1,179,0,179
+
+[STDOUT] Local,./dat/real.dat1,187,0,187
+
+[STDOUT] Local,./dat/real.dat1,193,0,193
+
+[STDOUT] Local,./dat/real.dat1,194,0,194
+
+[STDOUT] Local,./dat/real.dat1,202,0,202
+
+[STDOUT] Local,./dat/real.dat1,189,0,189
+
+[STDOUT] Local,./dat/real.dat1,191,0,191
+
+[STDOUT] Local,./dat/real.dat1,200,0,200
+
+[STDOUT] Local,./dat/real.dat1,188,0,188
+
+[STDOUT] Local,./dat/real.dat1,209,0,209
+
+[STDOUT] Local,./dat/real.dat1,184,0,184
+
+[STDOUT] Local,./dat/real.dat1,183,0,183
+
+[STDOUT] Local,./dat/real.dat1,205,0,205
+
+[STDOUT] Local,./dat/real.dat1,193,0,193
+
+[STDOUT] Local,./dat/real.dat1,190,0,190
+
+[STDOUT] Local,./dat/real.dat1,178,0,178
+
+[STDOUT] Local,./dat/real.dat1,189,0,189
+
+[STDOUT] Local,./dat/real.dat1,187,0,187
+
+[STDOUT] Local,./dat/real.dat1,179,0,179
+
+[STDOUT] Local,./dat/real.dat1,179,0,179
+
+[STDOUT] Local,./dat/real.dat1,186,0,186
+
+[STDOUT] Local,./dat/real.dat1,178,0,178
+
+[STDOUT] Local,./dat/real.dat1,199,0,199
+
+[STDOUT] Local,./dat/real.dat1,177,0,177
+
+[STDOUT] Local,./dat/real.dat1,191,0,191
+
+[STDOUT] Local,./dat/real.dat1,192,0,192
+
+[STDOUT] Local,./dat/real.dat1,189,0,189
+
+[STDOUT] Local,./dat/real.dat1,185,0,185
+
+[STDOUT] Local,./dat/real.dat1,185,0,185
+
+[STDOUT] Local,./dat/real.dat1,211,0,211
+
+[STDOUT] Local,./dat/real.dat1,186,0,186
+
+[STDOUT] Local,./dat/real.dat1,179,0,179
+
+[STDOUT] Local,./dat/real.dat1,188,0,188
+
+[STDOUT] Local,./dat/real.dat1,181,0,181
+
+[STDOUT] Local,./dat/real.dat1,180,0,180
+
+[STDOUT] Local,./dat/real.dat1,188,0,188
+
+[STDOUT] Local,./dat/real.dat1,183,0,183
+[INFO] Preparing environment to run application bap2 on…
+
+[INFO] Starting Runner @ Sat Jul 18 03:08:42 UTC 2015
+
+[DOCKER] Step 0 : FROM codenvy/cpp
+
+[DOCKER] Trying to pull repository docker.io/codenvy/cpp ...
+
+[DOCKER] 
+
+[DOCKER] 16002f1ac13e: Pulling image (latest) from docker.io/codenvy/cpp 
+
+[DOCKER] 16002f1ac13e: Pulling image (latest) from docker.io/codenvy/cpp, endpoint: https://registry-1.docker.io/v1/ 
+
+[DOCKER] 16002f1ac13e: Pulling dependent layers 
+
+[DOCKER] 511136ea3c5a: Download complete 
+
+[DOCKER] 3b3a4796eef1: Download complete 
+
+[DOCKER] 50ec2d202fe8: Download complete 
+
+[DOCKER] 4d6bf5b582e4: Download complete 
+
+[DOCKER] 316bc7792e25: Download complete 
+
+[DOCKER] 574d7d93dc3c: Download complete 
+
+[DOCKER] 97297440ca28: Download complete 
+
+[DOCKER] 2a37b460b9c9: Download complete 
+
+[DOCKER] 5b624194a36a: Download complete 
+
+[DOCKER] 545ee0493cf4: Download complete 
+
+[DOCKER] 559c12c7711b: Download complete 
+
+[DOCKER] b9b047638ea4: Download complete 
+
+[DOCKER] 3238ab333846: Download complete 
+
+[DOCKER] 16002f1ac13e: Download complete 
+
+[DOCKER] 16002f1ac13e: Download complete 
+
+[DOCKER] Status: Image is up to date for docker.io/codenvy/cpp:latest 
+
+[DOCKER] ---> 16002f1ac13e
+
+[DOCKER] Step 1 : ENV CODENVY_APP_BIND_DIR /home/user/app
+
+[DOCKER] ---> Running in 7bb1441897f6
+
+[DOCKER] ---> bfe52b9e776a
+
+[DOCKER] Removing intermediate container 7bb1441897f6
+
+[DOCKER] Step 2 : VOLUME /home/user/app
+
+[DOCKER] ---> Running in 6e66f3688f02
+
+[DOCKER] ---> c1ca54f93ad8
+
+[DOCKER] Removing intermediate container 6e66f3688f02
+
+[DOCKER] Step 3 : CMD cd /home/user/app && make && ./bercos
+
+[DOCKER] ---> Running in c59cd5e2cdd7
+
+[DOCKER] ---> e1aba2243619
+
+[DOCKER] Removing intermediate container c59cd5e2cdd7
+
+[DOCKER] Successfully built e1aba2243619
+
+[STDOUT] Building src/grasp.cc
+
+[INFO] Environment preparation done. Application bap2 starting up…
+
+[STDOUT] Building src/porto.cc
+
+[STDOUT] Building src/main.cc
+
+[STDOUT] Building src/pabSolution.cc
+
+[STDERR] src/pabSolution.cc: In member function 'int pabSolution::simulate(std::vector<std::vector<Porto::Navio> >, unsigned int&, bool)':
+
+[STDERR] src/pabSolution.cc:243:17: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+
+[STDERR]      if (n.saida == t) {
+
+[STDERR]                  ^
+
+[STDOUT] Building src/bnb.cc
+
+[STDOUT] mkdir bin
+
+[STDOUT] mkdir obj
+
+[STDOUT] Building executable
+
+[STDOUT] Problem: ./dat/real.dat
+
+[STDOUT] Local,./dat/real.dat1,182,0,182
+
+[STDOUT] Local,./dat/real.dat1,181,0,181
+
+[STDOUT] Local,./dat/real.dat1,189,0,189
+
+[STDOUT] Local,./dat/real.dat1,182,0,182
+
+[STDOUT] Local,./dat/real.dat1,179,0,179
+
+[STDOUT] Local,./dat/real.dat1,188,0,188
+
+[STDOUT] Local,./dat/real.dat1,174,0,174
+
+[STDOUT] Local,./dat/real.dat1,182,0,182
+
+[STDOUT] Local,./dat/real.dat1,183,0,183
+
+[STDOUT] Local,./dat/real.dat1,188,0,188
+
+[STDOUT] Local,./dat/real.dat1,193,0,193
+
+[STDOUT] Local,./dat/real.dat1,191,0,191
+
+[STDOUT] Local,./dat/real.dat1,191,0,191
+
+[STDOUT] Local,./dat/real.dat1,173,0,173
+
+[STDOUT] Local,./dat/real.dat1,178,0,178
+
+[STDOUT] Local,./dat/real.dat1,206,0,206
+
+[STDOUT] Local,./dat/real.dat1,194,0,194
+
+[STDOUT] Local,./dat/real.dat1,184,0,184
+
+[STDOUT] Local,./dat/real.dat1,182,0,182
+
+[STDOUT] Local,./dat/real.dat1,189,0,189
+
+[STDOUT] Local,./dat/real.dat1,197,0,197
+
+[STDOUT] Local,./dat/real.dat1,183,0,183
+
+[STDOUT] Local,./dat/real.dat1,191,0,191
+
+[STDOUT] Local,./dat/real.dat1,200,0,200
+
+[STDOUT] Local,./dat/real.dat1,177,0,177
+
+[STDOUT] Local,./dat/real.dat1,191,0,191
+
+[STDOUT] Local,./dat/real.dat1,197,0,197
+
+[STDOUT] Local,./dat/real.dat1,178,0,178
+
+[STDOUT] Local,./dat/real.dat1,180,0,180
+
+[STDOUT] Local,./dat/real.dat1,188,0,188
+
+[STDOUT] Local,./dat/real.dat1,188,0,188
+
+[STDOUT] Local,./dat/real.dat1,179,0,179
+
+[STDOUT] Local,./dat/real.dat1,184,0,184
+
+[STDOUT] Local,./dat/real.dat1,188,0,188
+
+[STDOUT] Local,./dat/real.dat1,195,0,195
+
+[STDOUT] Local,./dat/real.dat1,175,0,175
+
+[STDOUT] Local,./dat/real.dat1,179,0,179
+
+[STDOUT] Local,./dat/real.dat1,199,0,199
+
+[STDOUT] Local,./dat/real.dat1,187,0,187
+
+[STDOUT] Local,./dat/real.dat1,189,0,189
+
+[STDOUT] Local,./dat/real.dat1,181,0,181
+
+[STDOUT] Local,./dat/real.dat1,175,0,175
+
+[STDOUT] Local,./dat/real.dat1,180,0,180
+
+[STDOUT] Local,./dat/real.dat1,192,0,192
+
+[STDOUT] Local,./dat/real.dat1,178,0,178
+
+[STDOUT] Local,./dat/real.dat1,195,0,195
+
+[STDOUT] Local,./dat/real.dat1,203,0,203
+
+[STDOUT] Local,./dat/real.dat1,171,0,171
+
+[STDOUT] Local,./dat/real.dat1,189,0,189
+
+[STDOUT] Local,./dat/real.dat1,185,0,185
+
+[STDOUT] Local,./dat/real.dat1,173,0,173
+
+[STDOUT] Local,./dat/real.dat1,187,0,187
+
+[STDOUT] Local,./dat/real.dat1,186,0,186
+
+[STDOUT] Local,./dat/real.dat1,184,0,184
+
+[STDOUT] Local,./dat/real.dat1,178,0,178
+
+[STDOUT] Local,./dat/real.dat1,183,0,183
+
+[STDOUT] Local,./dat/real.dat1,189,0,189
+
+[STDOUT] Local,./dat/real.dat1,183,0,183
+
+[STDOUT] Local,./dat/real.dat1,176,0,176
+
+[STDOUT] Local,./dat/real.dat1,180,0,180
+
+[STDOUT] Local,./dat/real.dat1,187,0,187
+
+[STDOUT] Local,./dat/real.dat1,189,0,189
+
+[STDOUT] Local,./dat/real.dat1,192,0,192
+
+[STDOUT] Local,./dat/real.dat1,179,0,179
+
+[STDOUT] Local,./dat/real.dat1,179,0,179
+
+[STDOUT] Local,./dat/real.dat1,182,0,182
+
+[STDOUT] Local,./dat/real.dat1,187,0,187
+
+[STDOUT] Local,./dat/real.dat1,185,0,185
+
+[STDOUT] Local,./dat/real.dat1,180,0,180
+
+[STDOUT] Local,./dat/real.dat1,191,0,191
+
+[STDOUT] Local,./dat/real.dat1,187,0,187
+
+[STDOUT] Local,./dat/real.dat1,182,0,182
+
+[STDOUT] Local,./dat/real.dat1,183,0,183
+
+[STDOUT] Local,./dat/real.dat1,192,0,192
+
+[STDOUT] Local,./dat/real.dat1,200,0,200
+
+[STDOUT] Local,./dat/real.dat1,185,0,185
+
+[STDOUT] Local,./dat/real.dat1,185,0,185
+
+[STDOUT] Local,./dat/real.dat1,182,0,182
+
+[STDOUT] Local,./dat/real.dat1,179,0,179
+
+[STDOUT] Local,./dat/real.dat1,204,0,204
+
+[STDOUT] Local,./dat/real.dat1,182,0,182
+
+[STDOUT] Local,./dat/real.dat1,192,0,192
+
+[STDOUT] Local,./dat/real.dat1,222,0,222
+
+[STDOUT] Local,./dat/real.dat1,187,0,187
+
+[STDOUT] Local,./dat/real.dat1,175,0,175
+
+[STDOUT] Local,./dat/real.dat1,190,0,190
+
+[STDOUT] Local,./dat/real.dat1,171,0,171
+
+[STDOUT] Local,./dat/real.dat1,179,0,179
+
+[STDOUT] Local,./dat/real.dat1,173,0,173
+
+[STDOUT] Local,./dat/real.dat1,190,0,190
+
+[STDOUT] Local,./dat/real.dat1,185,0,185
+
+[STDOUT] Local,./dat/real.dat1,178,0,178
+
+[STDOUT] Local,./dat/real.dat1,181,0,181
+
+[STDOUT] Local,./dat/real.dat1,183,0,183
+
+[STDOUT] Local,./dat/real.dat1,179,0,179
+
+[STDOUT] Local,./dat/real.dat1,181,0,181
+
+[STDOUT] Local,./dat/real.dat1,193,0,193
+
+[STDOUT] Local,./dat/real.dat1,182,0,182
+
+[STDOUT] Local,./dat/real.dat1,188,0,188
+
+[STDOUT] Local,./dat/real.dat1,188,0,188
+
+[STDOUT] Local,./dat/real.dat1,188,0,188
+
+[STDOUT] Local,./dat/real.dat1,187,0,187
+
+[STDOUT] Local,./dat/real.dat1,186,0,186
+
+[STDOUT] Local,./dat/real.dat1,199,0,199
+
+[STDOUT] Local,./dat/real.dat1,182,0,182
+
+[STDOUT] Local,./dat/real.dat1,195,0,195
+
+[STDOUT] Local,./dat/real.dat1,188,0,188
+
+[STDOUT] Local,./dat/real.dat1,180,0,180
+
+[STDOUT] Local,./dat/real.dat1,178,0,178
+
+[STDOUT] Local,./dat/real.dat1,184,0,184
+
+[STDOUT] Local,./dat/real.dat1,194,0,194
+
+[STDOUT] Local,./dat/real.dat1,187,0,187
+
+[STDOUT] Local,./dat/real.dat1,192,0,192
+
+[STDOUT] Local,./dat/real.dat1,183,0,183
+[INFO] Preparing environment to run application bap2 on…
+
+[INFO] Starting Runner @ Sat Jul 18 03:08:43 UTC 2015
+
+[DOCKER] Step 0 : FROM codenvy/cpp
+
+[DOCKER] Trying to pull repository docker.io/codenvy/cpp ...
+
+[DOCKER] 
+
+[DOCKER] 16002f1ac13e: Pulling image (latest) from docker.io/codenvy/cpp 
+
+[DOCKER] 16002f1ac13e: Pulling image (latest) from docker.io/codenvy/cpp, endpoint: https://registry-1.docker.io/v1/ 
+
+[DOCKER] 16002f1ac13e: Pulling dependent layers 
+
+[DOCKER] 511136ea3c5a: Download complete 
+
+[DOCKER] 3b3a4796eef1: Download complete 
+
+[DOCKER] 50ec2d202fe8: Download complete 
+
+[DOCKER] 4d6bf5b582e4: Download complete 
+
+[DOCKER] 316bc7792e25: Download complete 
+
+[DOCKER] 574d7d93dc3c: Download complete 
+
+[DOCKER] 97297440ca28: Download complete 
+
+[DOCKER] 2a37b460b9c9: Download complete 
+
+[DOCKER] 5b624194a36a: Download complete 
+
+[DOCKER] 545ee0493cf4: Download complete 
+
+[DOCKER] 559c12c7711b: Download complete 
+
+[DOCKER] b9b047638ea4: Download complete 
+
+[DOCKER] 3238ab333846: Download complete 
+
+[DOCKER] 16002f1ac13e: Download complete 
+
+[DOCKER] 16002f1ac13e: Download complete 
+
+[DOCKER] Status: Image is up to date for docker.io/codenvy/cpp:latest 
+
+[DOCKER] ---> 16002f1ac13e
+
+[DOCKER] Step 1 : ENV CODENVY_APP_BIND_DIR /home/user/app
+
+[DOCKER] ---> Using cache
+
+[DOCKER] ---> e134ed60d26c
+
+[DOCKER] Step 2 : VOLUME /home/user/app
+
+[DOCKER] ---> Using cache
+
+[DOCKER] ---> b87014a18b0c
+
+[DOCKER] Step 3 : CMD cd /home/user/app && make && ./bercos
+
+[DOCKER] ---> Using cache
+
+[DOCKER] ---> 3c2a11478fa5
+
+[DOCKER] Successfully built 3c2a11478fa5
+
+[INFO] Environment preparation done. Application bap2 starting up…
+
+[STDOUT] Building src/porto.cc
+
+[STDOUT] Building src/main.cc
+
+[STDOUT] Building src/pabSolution.cc
+
+[STDERR] src/pabSolution.cc: In member function 'int pabSolution::simulate(std::vector<std::vector<Porto::Navio> >, unsigned int&, bool)':
+
+[STDERR] src/pabSolution.cc:243:17: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+
+[STDERR]      if (n.saida == t) {
+
+[STDERR]                  ^
+
+[STDOUT] Building src/bnb.cc
+
+[STDOUT] mkdir bin
+
+[STDOUT] mkdir obj
+
+[STDOUT] Building executable
+
+[STDOUT] Problem: ./dat/real.dat
+
+[STDOUT] Local,./dat/real.dat1,183,0,183
+
+[STDOUT] Local,./dat/real.dat1,190,0,190
+
+[STDOUT] Local,./dat/real.dat1,186,0,186
+
+[STDOUT] Local,./dat/real.dat1,205,0,205
+
+[STDOUT] Local,./dat/real.dat1,189,0,189
+
+[STDOUT] Local,./dat/real.dat1,174,0,174
+
+[STDOUT] Local,./dat/real.dat1,182,0,182
+
+[STDOUT] Local,./dat/real.dat1,179,0,179
+
+[STDOUT] Local,./dat/real.dat1,186,0,186
+
+[STDOUT] Local,./dat/real.dat1,180,0,180
+
+[STDOUT] Local,./dat/real.dat1,176,0,176
+
+[STDOUT] Local,./dat/real.dat1,184,0,184
+
+[STDOUT] Local,./dat/real.dat1,188,0,188
+
+[STDOUT] Local,./dat/real.dat1,185,0,185
+
+[STDOUT] Local,./dat/real.dat1,199,0,199
+
+[STDOUT] Local,./dat/real.dat1,192,0,192
+
+[STDOUT] Local,./dat/real.dat1,186,0,186
+
+[STDOUT] Local,./dat/real.dat1,192,0,192
+
+[STDOUT] Local,./dat/real.dat1,186,0,186
+
+[STDOUT] Local,./dat/real.dat1,180,0,180
+
+[STDOUT] Local,./dat/real.dat1,185,0,185
+
+[STDOUT] Local,./dat/real.dat1,184,0,184
+
+[STDOUT] Local,./dat/real.dat1,185,0,185
+
+[STDOUT] Local,./dat/real.dat1,187,0,187
+
+[STDOUT] Local,./dat/real.dat1,190,0,190
+
+[STDOUT] Local,./dat/real.dat1,179,0,179
+
+[STDOUT] Local,./dat/real.dat1,176,0,176
+
+[STDOUT] Local,./dat/real.dat1,183,0,183
+
+[STDOUT] Local,./dat/real.dat1,185,0,185
+
+[STDOUT] Local,./dat/real.dat1,184,0,184
+
+[STDOUT] Local,./dat/real.dat1,191,0,191
+
+[STDOUT] Local,./dat/real.dat1,188,0,188
+
+[STDOUT] Local,./dat/real.dat1,188,0,188
+
+[STDOUT] Local,./dat/real.dat1,176,0,176
+
+[STDOUT] Local,./dat/real.dat1,180,0,180
+
+[STDOUT] Local,./dat/real.dat1,186,0,186
+
+[STDOUT] Local,./dat/real.dat1,181,0,181
+
+[STDOUT] Local,./dat/real.dat1,183,0,183
+
+[STDOUT] Local,./dat/real.dat1,186,0,186
+
+[STDOUT] Local,./dat/real.dat1,195,0,195
+
+[STDOUT] Local,./dat/real.dat1,195,0,195
+
+[STDOUT] Local,./dat/real.dat1,183,0,183
+
+[STDOUT] Local,./dat/real.dat1,192,0,192
+
+[STDOUT] Local,./dat/real.dat1,199,0,199
+
+[STDOUT] Local,./dat/real.dat1,198,0,198
+
+[STDOUT] Local,./dat/real.dat1,180,0,180
+
+[STDOUT] Local,./dat/real.dat1,177,0,177
+
+[STDOUT] Local,./dat/real.dat1,195,0,195
+
+[STDOUT] Local,./dat/real.dat1,188,0,188
+
+[STDOUT] Local,./dat/real.dat1,179,0,179
+
+[STDOUT] Local,./dat/real.dat1,187,0,187
+
+[STDOUT] Local,./dat/real.dat1,183,0,183
+
+[STDOUT] Local,./dat/real.dat1,172,0,172
+
+[STDOUT] Local,./dat/real.dat1,194,0,194
+
+[STDOUT] Local,./dat/real.dat1,187,0,187
+
+[STDOUT] Local,./dat/real.dat1,183,0,183
+
+[STDOUT] Local,./dat/real.dat1,180,0,180
+
+[STDOUT] Local,./dat/real.dat1,183,0,183
+
+[STDOUT] Local,./dat/real.dat1,177,0,177
+
+[STDOUT] Local,./dat/real.dat1,184,0,184
+
+[STDOUT] Local,./dat/real.dat1,183,0,183
+
+[STDOUT] Local,./dat/real.dat1,177,0,177
+
+[STDOUT] Local,./dat/real.dat1,185,0,185
+
+[STDOUT] Local,./dat/real.dat1,182,0,182
+
+[STDOUT] Local,./dat/real.dat1,181,0,181
+
+[STDOUT] Local,./dat/real.dat1,181,0,181
+
+[STDOUT] Local,./dat/real.dat1,174,0,174
+
+[STDOUT] Local,./dat/real.dat1,185,0,185
+
+[STDOUT] Local,./dat/real.dat1,186,0,186
+
+[STDOUT] Local,./dat/real.dat1,186,0,186
+
+[STDOUT] Local,./dat/real.dat1,171,0,171
+[INFO] Preparing environment to run application bap2 on…
+
+[INFO] Starting Runner @ Sat Jul 18 03:08:44 UTC 2015
+
+[DOCKER] Step 0 : FROM codenvy/cpp
+
+[DOCKER] Trying to pull repository docker.io/codenvy/cpp ...
+
+[DOCKER] 
+
+[DOCKER] 16002f1ac13e: Pulling image (latest) from docker.io/codenvy/cpp 
+
+[DOCKER] 16002f1ac13e: Pulling image (latest) from docker.io/codenvy/cpp, endpoint: https://registry-1.docker.io/v1/ 
+
+[DOCKER] 16002f1ac13e: Pulling dependent layers 
+
+[DOCKER] 511136ea3c5a: Download complete 
+
+[DOCKER] 3b3a4796eef1: Download complete 
+
+[DOCKER] 50ec2d202fe8: Download complete 
+
+[DOCKER] 4d6bf5b582e4: Download complete 
+
+[DOCKER] 316bc7792e25: Download complete 
+
+[DOCKER] 574d7d93dc3c: Download complete 
+
+[DOCKER] 97297440ca28: Download complete 
+
+[DOCKER] 2a37b460b9c9: Download complete 
+
+[DOCKER] 5b624194a36a: Download complete 
+
+[DOCKER] 545ee0493cf4: Download complete 
+
+[DOCKER] 559c12c7711b: Download complete 
+
+[DOCKER] b9b047638ea4: Download complete 
+
+[DOCKER] 3238ab333846: Download complete 
+
+[DOCKER] 16002f1ac13e: Download complete 
+
+[DOCKER] 16002f1ac13e: Download complete 
+
+[DOCKER] Status: Image is up to date for docker.io/codenvy/cpp:latest 
+
+[DOCKER] ---> 16002f1ac13e
+
+[DOCKER] Step 1 : ENV CODENVY_APP_BIND_DIR /home/user/app
+
+[DOCKER] ---> Using cache
+
+[DOCKER] ---> 98852ed0653a
+
+[DOCKER] Step 2 : VOLUME /home/user/app
+
+[DOCKER] ---> Using cache
+
+[DOCKER] ---> 0ae0ab8b0cf9
+
+[DOCKER] Step 3 : CMD cd /home/user/app && make && ./bercos
+
+[DOCKER] ---> Using cache
+
+[DOCKER] ---> c638eceb8bf7
+
+[DOCKER] Successfully built c638eceb8bf7
+
+[INFO] Environment preparation done. Application bap2 starting up…
+
+[STDOUT] Building src/grasp.cc
+
+[STDOUT] Building src/porto.cc
+
+[STDOUT] Building src/main.cc
+
+[STDOUT] Building src/pabSolution.cc
+
+[STDERR] src/pabSolution.cc: In member function 'int pabSolution::simulate(std::vector<std::vector<Porto::Navio> >, unsigned int&, bool)':
+
+[STDERR] src/pabSolution.cc:243:17: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+
+[STDERR]      if (n.saida == t) {
+
+[STDERR]                  ^
+
+[STDOUT] Building src/bnb.cc
+
+[STDOUT] mkdir bin
+
+[STDOUT] mkdir obj
+
+[STDOUT] Building executable
+
+[STDOUT] Problem: ./dat/real.dat
+
+[STDOUT] Local,./dat/real.dat1,181,0,181
+
+[STDOUT] Local,./dat/real.dat1,186,0,186
+
+[STDOUT] Local,./dat/real.dat1,182,0,182
+
+[STDOUT] Local,./dat/real.dat1,185,0,185
+
+[STDOUT] Local,./dat/real.dat1,186,0,186
+
+[STDOUT] Local,./dat/real.dat1,178,0,178
+
+[STDOUT] Local,./dat/real.dat1,190,0,190
+
+[STDOUT] Local,./dat/real.dat1,177,0,177
+
+[STDOUT] Local,./dat/real.dat1,184,0,184
+
+[STDOUT] Local,./dat/real.dat1,180,0,180
+
+[STDOUT] Local,./dat/real.dat1,177,0,177
+
+[STDOUT] Local,./dat/real.dat1,183,0,183
+
+[STDOUT] Local,./dat/real.dat1,180,0,180
+
+[STDOUT] Local,./dat/real.dat1,183,0,183
+
+[STDOUT] Local,./dat/real.dat1,188,0,188
+
+[STDOUT] Local,./dat/real.dat1,184,0,184
+
+[STDOUT] Local,./dat/real.dat1,178,0,178
+
+[STDOUT] Local,./dat/real.dat1,183,0,183
+
+[STDOUT] Local,./dat/real.dat1,202,0,202
+
+[STDOUT] Local,./dat/real.dat1,179,0,179
+
+[STDOUT] Local,./dat/real.dat1,192,0,192
+
+[STDOUT] Local,./dat/real.dat1,171,0,171
+
+[STDOUT] Local,./dat/real.dat1,194,0,194
+
+[STDOUT] Local,./dat/real.dat1,186,0,186
+
+[STDOUT] Local,./dat/real.dat1,202,0,202
+
+[STDOUT] Local,./dat/real.dat1,183,0,183
+
+[STDOUT] Local,./dat/real.dat1,185,0,185
+
+[STDOUT] Local,./dat/real.dat1,182,0,182
+
+[STDOUT] Local,./dat/real.dat1,200,0,200
+
+[STDOUT] Local,./dat/real.dat1,195,0,195
+
+[STDOUT] Local,./dat/real.dat1,184,0,184
+
+[STDOUT] Local,./dat/real.dat1,179,0,179
+
+[STDOUT] Local,./dat/real.dat1,188,0,188
+
+[STDOUT] Local,./dat/real.dat1,180,0,180
+
+[STDOUT] Local,./dat/real.dat1,180,0,180
+
+[STDOUT] Local,./dat/real.dat1,182,0,182
+
+[STDOUT] Local,./dat/real.dat1,178,0,178
+
+[STDOUT] Local,./dat/real.dat1,187,0,187
+
+[STDOUT] Local,./dat/real.dat1,187,0,187
+
+[STDOUT] Local,./dat/real.dat1,186,0,186
+
+[STDOUT] Local,./dat/real.dat1,189,0,189
+
+[STDOUT] Local,./dat/real.dat1,191,0,191
+
+[STDOUT] Local,./dat/real.dat1,199,0,199
+
+[STDOUT] Local,./dat/real.dat1,180,0,180
+
+[STDOUT] Local,./dat/real.dat1,194,0,194
+
+[STDOUT] Local,./dat/real.dat1,193,0,193
+
+[STDOUT] Local,./dat/real.dat1,178,0,178
+
+[STDOUT] Local,./dat/real.dat1,191,0,191
+
+[STDOUT] Local,./dat/real.dat1,203,0,203
+
+[STDOUT] Local,./dat/real.dat1,175,0,175
+
+[STDOUT] Local,./dat/real.dat1,183,0,183
+
+[STDOUT] Local,./dat/real.dat1,178,0,178
+
+[STDOUT] Local,./dat/real.dat1,181,0,181
+
+[STDOUT] Local,./dat/real.dat1,190,0,190
+
+[STDOUT] Local,./dat/real.dat1,194,0,194
+
+[STDOUT] Local,./dat/real.dat1,180,0,180
+
+[STDOUT] Local,./dat/real.dat1,178,0,178
+
+[STDOUT] Local,./dat/real.dat1,189,0,189
+
+[STDOUT] Local,./dat/real.dat1,184,0,184
+
+[STDOUT] Local,./dat/real.dat1,179,0,179
+
+[STDOUT] Local,./dat/real.dat1,178,0,178
+
+[STDOUT] Local,./dat/real.dat1,192,0,192
+
+[STDOUT] Local,./dat/real.dat1,177,0,177
+
+[STDOUT] Local,./dat/real.dat1,178,0,178
+
+[ERROR] We are having trouble starting the runner and deploying application bap2. Either necessary files are missing or a fundamental configuration has changed.: {"message":"Invalid run task id: 672"}
+[INFO] Preparing environment to run application bap2 on…
+
+[INFO] Starting Runner @ Sat Jul 18 03:08:46 UTC 2015
+
+[DOCKER] Step 0 : FROM codenvy/cpp
+
+[DOCKER] Repository docker.io/codenvy/cpp already being pulled by another client. Waiting. 
+
+[DOCKER] ---> 16002f1ac13e
+
+[DOCKER] Step 1 : ENV CODENVY_APP_BIND_DIR /home/user/app
+
+[DOCKER] ---> Using cache
+
+[DOCKER] ---> 98852ed0653a
+
+[DOCKER] Step 2 : VOLUME /home/user/app
+
+[DOCKER] ---> Using cache
+
+[DOCKER] ---> 0ae0ab8b0cf9
+
+[DOCKER] Step 3 : CMD cd /home/user/app && make && ./bercos
+
+[DOCKER] ---> Using cache
+
+[DOCKER] ---> c638eceb8bf7
+
+[DOCKER] Successfully built c638eceb8bf7
+
+[INFO] Environment preparation done. Application bap2 starting up…
+
+[STDOUT] Building src/grasp.cc
+
+[STDOUT] Building src/porto.cc
+
+[STDOUT] Building src/main.cc
+
+[STDOUT] Building src/pabSolution.cc
+
+[STDERR] src/pabSolution.cc: In member function 'int pabSolution::simulate(std::vector<std::vector<Porto::Navio> >, unsigned int&, bool)':
+
+[STDERR] src/pabSolution.cc:243:17: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+
+[STDERR]      if (n.saida == t) {
+
+[STDERR]                  ^
+
+[STDOUT] Building src/bnb.cc
+
+[STDOUT] mkdir bin
+
+[STDOUT] mkdir obj
+
+[STDOUT] Building executable
+
+[STDOUT] Problem: ./dat/real.dat
+
+[STDOUT] Local,./dat/real.dat1,195,0,195
+
+[STDOUT] Local,./dat/real.dat1,175,0,175
+
+[STDOUT] Local,./dat/real.dat1,181,0,181
+
+[STDOUT] Local,./dat/real.dat1,174,0,174
+
+[STDOUT] Local,./dat/real.dat1,183,0,183
+
+[STDOUT] Local,./dat/real.dat1,186,0,186
+
+[STDOUT] Local,./dat/real.dat1,192,0,192
+
+[STDOUT] Local,./dat/real.dat1,196,0,196
+
+[STDOUT] Local,./dat/real.dat1,188,0,188
+
+[STDOUT] Local,./dat/real.dat1,185,0,185
+
+[STDOUT] Local,./dat/real.dat1,176,0,176
+
+[STDOUT] Local,./dat/real.dat1,191,0,191
+
+[STDOUT] Local,./dat/real.dat1,195,0,195
+
+[STDOUT] Local,./dat/real.dat1,189,0,189
+
+[STDOUT] Local,./dat/real.dat1,187,0,187
+
+[STDOUT] Local,./dat/real.dat1,184,0,184
+
+[STDOUT] Local,./dat/real.dat1,178,0,178
+
+[STDOUT] Local,./dat/real.dat1,201,0,201
+
+[STDOUT] Local,./dat/real.dat1,200,0,200
+
+[STDOUT] Local,./dat/real.dat1,189,0,189
+
+[STDOUT] Local,./dat/real.dat1,179,0,179
+
+[STDOUT] Local,./dat/real.dat1,187,0,187
+
+[STDOUT] Local,./dat/real.dat1,194,0,194
+
+[STDOUT] Local,./dat/real.dat1,188,0,188
+
+[STDOUT] Local,./dat/real.dat1,185,0,185
+
+[STDOUT] Local,./dat/real.dat1,185,0,185
+
+[STDOUT] Local,./dat/real.dat1,187,0,187
+
+[STDOUT] Local,./dat/real.dat1,189,0,189
+
+[STDOUT] Local,./dat/real.dat1,190,0,190
+
+[STDOUT] Local,./dat/real.dat1,197,0,197
+
+[STDOUT] Local,./dat/real.dat1,175,0,175
+
+[STDOUT] Local,./dat/real.dat1,197,0,197
+
+[STDOUT] Local,./dat/real.dat1,190,0,190
+
+[STDOUT] Local,./dat/real.dat1,178,0,178
+
+[STDOUT] Local,./dat/real.dat1,179,0,179
+
+[STDOUT] Local,./dat/real.dat1,185,0,185
+
+[STDOUT] Local,./dat/real.dat1,184,0,184
+
+[STDOUT] Local,./dat/real.dat1,185,0,185
+
+[STDOUT] Local,./dat/real.dat1,181,0,181
+
+[STDOUT] Local,./dat/real.dat1,179,0,179
+
+[STDOUT] Local,./dat/real.dat1,187,0,187
+
+[STDOUT] Local,./dat/real.dat1,186,0,186
+
+[STDOUT] Local,./dat/real.dat1,192,0,192
+
+[STDOUT] Local,./dat/real.dat1,179,0,179
+
+[STDOUT] Local,./dat/real.dat1,176,0,176
+
+[STDOUT] Local,./dat/real.dat1,191,0,191
+
+[STDOUT] Local,./dat/real.dat1,179,0,179
+
+[STDOUT] Local,./dat/real.dat1,193,0,193
+
+[STDOUT] Local,./dat/real.dat1,177,0,177
+
+[STDOUT] Local,./dat/real.dat1,182,0,182
+
+[STDOUT] Local,./dat/real.dat1,174,0,174
+
+[STDOUT] Local,./dat/real.dat1,195,0,195
+
+[STDOUT] Local,./dat/real.dat1,207,0,207
+
+[STDOUT] Local,./dat/real.dat1,180,0,180
+
+[STDOUT] Local,./dat/real.dat1,182,0,182
+
+[STDOUT] Local,./dat/real.dat1,179,0,179
+
+[STDOUT] Local,./dat/real.dat1,198,0,198
+
+[STDOUT] Local,./dat/real.dat1,183,0,183
+
+[STDOUT] Local,./dat/real.dat1,179,0,179
+
+[STDOUT] Local,./dat/real.dat1,194,0,194
+
+[STDOUT] Local,./dat/real.dat1,189,0,189
+
+[STDOUT] Local,./dat/real.dat1,185,0,185
+[INFO] Preparing environment to run application bap2 on…
+
+[INFO] Starting Runner @ Sat Jul 18 03:08:46 UTC 2015
+
+[DOCKER] Step 0 : FROM codenvy/cpp
+
+[DOCKER] Trying to pull repository docker.io/codenvy/cpp ...
+
+[DOCKER] 
+
+[DOCKER] 16002f1ac13e: Pulling image (latest) from docker.io/codenvy/cpp 
+
+[DOCKER] 16002f1ac13e: Pulling image (latest) from docker.io/codenvy/cpp, endpoint: https://registry-1.docker.io/v1/ 
+
+[DOCKER] 16002f1ac13e: Pulling dependent layers 
+
+[DOCKER] 511136ea3c5a: Download complete 
+
+[DOCKER] 3b3a4796eef1: Download complete 
+
+[DOCKER] 50ec2d202fe8: Download complete 
+
+[DOCKER] 4d6bf5b582e4: Download complete 
+
+[DOCKER] 316bc7792e25: Download complete 
+
+[DOCKER] 574d7d93dc3c: Download complete 
+
+[DOCKER] 97297440ca28: Download complete 
+
+[DOCKER] 2a37b460b9c9: Download complete 
+
+[DOCKER] 5b624194a36a: Download complete 
+
+[DOCKER] 545ee0493cf4: Download complete 
+
+[DOCKER] 559c12c7711b: Download complete 
+
+[DOCKER] b9b047638ea4: Download complete 
+
+[DOCKER] 3238ab333846: Download complete 
+
+[DOCKER] 16002f1ac13e: Download complete 
+
+[DOCKER] 16002f1ac13e: Download complete 
+
+[DOCKER] Status: Image is up to date for docker.io/codenvy/cpp:latest 
+
+[DOCKER] ---> 16002f1ac13e
+
+[DOCKER] Step 1 : ENV CODENVY_APP_BIND_DIR /home/user/app
+
+[DOCKER] ---> Using cache
+
+[DOCKER] ---> fd08cd558625
+
+[DOCKER] Step 2 : VOLUME /home/user/app
+
+[DOCKER] ---> Using cache
+
+[DOCKER] ---> f3b985e033a2
+
+[DOCKER] Step 3 : CMD cd /home/user/app && make && ./bercos
+
+[DOCKER] ---> Running in 54540cca3694
+
+[DOCKER] ---> e6128b11e432
+
+[DOCKER] Removing intermediate container 54540cca3694
+
+[DOCKER] Successfully built e6128b11e432
+
+[STDOUT] Building src/grasp.cc
+
+[INFO] Environment preparation done. Application bap2 starting up…
+
+[STDOUT] Building src/porto.cc
+
+[STDOUT] Building src/main.cc
+
+[STDOUT] Building src/pabSolution.cc
+
+[STDERR] src/pabSolution.cc: In member function 'int pabSolution::simulate(std::vector<std::vector<Porto::Navio> >, unsigned int&, bool)':
+
+[STDERR] src/pabSolution.cc:243:17: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+
+[STDERR]      if (n.saida == t) {
+
+[STDERR]                  ^
+
+[STDOUT] Building src/bnb.cc
+
+[STDOUT] mkdir bin
+
+[STDOUT] mkdir obj
+
+[STDOUT] Building executable
+
+[STDOUT] Problem: ./dat/real.dat
+
+[STDOUT] Local,./dat/real.dat1,183,0,183
+
+[STDOUT] Local,./dat/real.dat1,176,0,176
+
+[STDOUT] Local,./dat/real.dat1,193,0,193
+
+[STDOUT] Local,./dat/real.dat1,198,0,198
+
+[STDOUT] Local,./dat/real.dat1,181,0,181
+
+[STDOUT] Local,./dat/real.dat1,190,0,190
+
+[STDOUT] Local,./dat/real.dat1,178,0,178
+
+[STDOUT] Local,./dat/real.dat1,195,0,195
+
+[STDOUT] Local,./dat/real.dat1,188,0,188
+
+[STDOUT] Local,./dat/real.dat1,205,0,205
+
+[STDOUT] Local,./dat/real.dat1,191,0,191
+
+[STDOUT] Local,./dat/real.dat1,208,0,208
+
+[STDOUT] Local,./dat/real.dat1,194,0,194
+
+[STDOUT] Local,./dat/real.dat1,182,0,182
+
+[STDOUT] Local,./dat/real.dat1,183,0,183
+
+[STDOUT] Local,./dat/real.dat1,187,0,187
+
+[STDOUT] Local,./dat/real.dat1,191,0,191
+
+[STDOUT] Local,./dat/real.dat1,184,0,184
+
+[STDOUT] Local,./dat/real.dat1,185,0,185
+
+[STDOUT] Local,./dat/real.dat1,175,0,175
+
+[STDOUT] Local,./dat/real.dat1,184,0,184
+
+[STDOUT] Local,./dat/real.dat1,198,0,198
+
+[STDOUT] Local,./dat/real.dat1,184,0,184
+
+[STDOUT] Local,./dat/real.dat1,199,0,199
+
+[STDOUT] Local,./dat/real.dat1,185,0,185
+
+[STDOUT] Local,./dat/real.dat1,182,0,182
+
+[STDOUT] Local,./dat/real.dat1,205,0,205
+
+[STDOUT] Local,./dat/real.dat1,194,0,194
+
+[STDOUT] Local,./dat/real.dat1,191,0,191
+
+[STDOUT] Local,./dat/real.dat1,187,0,187
+
+[STDOUT] Local,./dat/real.dat1,193,0,193
+
+[STDOUT] Local,./dat/real.dat1,195,0,195
+
+[STDOUT] Local,./dat/real.dat1,179,0,179
+
+[STDOUT] Local,./dat/real.dat1,189,0,189
+
+[STDOUT] Local,./dat/real.dat1,180,0,180
+
+[STDOUT] Local,./dat/real.dat1,191,0,191
+
+[STDOUT] Local,./dat/real.dat1,178,0,178
+
+[STDOUT] Local,./dat/real.dat1,196,0,196
+
+[STDOUT] Local,./dat/real.dat1,184,0,184
+
+[STDOUT] Local,./dat/real.dat1,195,0,195
+
+[STDOUT] Local,./dat/real.dat1,196,0,196
+
+[STDOUT] Local,./dat/real.dat1,196,0,196
+
+[STDOUT] Local,./dat/real.dat1,195,0,195
+
+[STDOUT] Local,./dat/real.dat1,187,0,187
+
+[STDOUT] Local,./dat/real.dat1,188,0,188
+
+[STDOUT] Local,./dat/real.dat1,192,0,192
+
+[STDOUT] Local,./dat/real.dat1,180,0,180
+
+[STDOUT] Local,./dat/real.dat1,190,0,190
+
+[STDOUT] Local,./dat/real.dat1,181,0,181
+
+[STDOUT] Local,./dat/real.dat1,192,0,192
+
+[STDOUT] Local,./dat/real.dat1,179,0,179
+
+[STDOUT] Local,./dat/real.dat1,190,0,190
+
+[STDOUT] Local,./dat/real.dat1,186,0,186
+
+[STDOUT] Local,./dat/real.dat1,194,0,194
+
+[STDOUT] Local,./dat/real.dat1,190,0,190
+
+[STDOUT] Local,./dat/real.dat1,183,0,183
+
+[STDOUT] Local,./dat/real.dat1,199,0,199
+
+[STDOUT] Local,./dat/real.dat1,179,0,179
+
+[STDOUT] Local,./dat/real.dat1,185,0,185
+
+[STDOUT] Local,./dat/real.dat1,183,0,183
+
+[STDOUT] Local,./dat/real.dat1,209,0,209
+
+[STDOUT] Local,./dat/real.dat1,208,0,208
+
+[STDOUT] Local,./dat/real.dat1,201,0,201
+
+[STDOUT] Local,./dat/real.dat1,178,0,178
+
+[STDOUT] Local,./dat/real.dat1,182,0,182
+
+[STDOUT] Local,./dat/real.dat1,196,0,196
+
+[STDOUT] Local,./dat/real.dat1,180,0,180
+
+[STDOUT] Local,./dat/real.dat1,184,0,184
+
+[STDOUT] Local,./dat/real.dat1,185,0,185
+
+[STDOUT] Local,./dat/real.dat1,186,0,186
+
+[STDOUT] Local,./dat/real.dat1,177,0,177
+
+[STDOUT] Local,./dat/real.dat1,178,0,178
+
+[STDOUT] Local,./dat/real.dat1,172,0,172
+
+[STDOUT] Local,./dat/real.dat1,195,0,195
+
+[STDOUT] Local,./dat/real.dat1,178,0,178
+
+[STDOUT] Local,./dat/real.dat1,182,0,182
+
+[STDOUT] Local,./dat/real.dat1,185,0,185
+
+[STDOUT] Local,./dat/real.dat1,179,0,179
+
+[STDOUT] Local,./dat/real.dat1,174,0,174
+
+[STDOUT] Local,./dat/real.dat1,178,0,178
+
+[STDOUT] Local,./dat/real.dat1,184,0,184
+
+[STDOUT] Local,./dat/real.dat1,187,0,187
+
+[STDOUT] Local,./dat/real.dat1,183,0,183
+
+[STDOUT] Local,./dat/real.dat1,182,0,182
+
+[STDOUT] Local,./dat/real.dat1,183,0,183
+
+[STDOUT] Local,./dat/real.dat1,198,0,198
+
+[STDOUT] Local,./dat/real.dat1,194,0,194
+
+[STDOUT] Local,./dat/real.dat1,184,0,184
+
+[STDOUT] Local,./dat/real.dat1,183,0,183
+
+[STDOUT] Local,./dat/real.dat1,194,0,194
+
+[STDOUT] Local,./dat/real.dat1,190,0,190
+
+[STDOUT] Local,./dat/real.dat1,183,0,183
+
+[STDOUT] Local,./dat/real.dat1,182,0,182
+
+[STDOUT] Local,./dat/real.dat1,170,0,170
+
+[STDOUT] Local,./dat/real.dat1,182,0,182
+
+[STDOUT] Local,./dat/real.dat1,183,0,183
+
+[STDOUT] Local,./dat/real.dat1,184,0,184
+
+[STDOUT] Local,./dat/real.dat1,178,0,178
+
+[STDOUT] Local,./dat/real.dat1,180,0,180
+
+[STDOUT] Local,./dat/real.dat1,180,0,180
+
+[STDOUT] Local,./dat/real.dat1,180,0,180
+
+[STDOUT] Local,./dat/real.dat1,176,0,176
+
+[STDOUT] Local,./dat/real.dat1,184,0,184
+
+[STDOUT] Local,./dat/real.dat1,187,0,187
+
+[STDOUT] Local,./dat/real.dat1,177,0,177
+
+[STDOUT] Local,./dat/real.dat1,179,0,179
+
+[STDOUT] Local,./dat/real.dat1,180,0,180
+
+[STDOUT] Local,./dat/real.dat1,182,0,182
+
+[STDOUT] Local,./dat/real.dat1,188,0,188
+
+[STDOUT] Local,./dat/real.dat1,186,0,186
+
+[STDOUT] Local,./dat/real.dat1,195,0,195
+
+[STDOUT] Local,./dat/real.dat1,183,0,183
+
+[STDOUT] Local,./dat/real.dat1,184,0,184
+
+[STDOUT] Local,./dat/real.dat1,176,0,176
+
+[INFO] Application bap2 has been shutdown.
+[INFO] Preparing environment to run application bap2 on…
+
+[INFO] Your request is queued waiting for a node to become available...
+
+[INFO] Starting Runner @ Sat Jul 18 03:08:46 UTC 2015
+
+[DOCKER] Step 0 : FROM codenvy/cpp
+
+[DOCKER] Trying to pull repository docker.io/codenvy/cpp ...
+
+[DOCKER] 
+
+[DOCKER] 16002f1ac13e: Pulling image (latest) from docker.io/codenvy/cpp 
+
+[DOCKER] 16002f1ac13e: Pulling image (latest) from docker.io/codenvy/cpp, endpoint: https://registry-1.docker.io/v1/ 
+
+[DOCKER] 16002f1ac13e: Pulling dependent layers 
+
+[DOCKER] 511136ea3c5a: Download complete 
+
+[DOCKER] 3b3a4796eef1: Download complete 
+
+[DOCKER] 50ec2d202fe8: Download complete 
+
+[DOCKER] 4d6bf5b582e4: Download complete 
+
+[DOCKER] 316bc7792e25: Download complete 
+
+[DOCKER] 574d7d93dc3c: Download complete 
+
+[DOCKER] 97297440ca28: Download complete 
+
+[DOCKER] 2a37b460b9c9: Download complete 
+
+[DOCKER] 5b624194a36a: Download complete 
+
+[DOCKER] 545ee0493cf4: Download complete 
+
+[DOCKER] 559c12c7711b: Download complete 
+
+[DOCKER] b9b047638ea4: Download complete 
+
+[DOCKER] 3238ab333846: Download complete 
+
+[DOCKER] 16002f1ac13e: Download complete 
+
+[DOCKER] 16002f1ac13e: Download complete 
+
+[DOCKER] Status: Image is up to date for docker.io/codenvy/cpp:latest 
+
+[DOCKER] ---> 16002f1ac13e
+
+[DOCKER] Step 1 : ENV CODENVY_APP_BIND_DIR /home/user/app
+
+[DOCKER] ---> Using cache
+
+[DOCKER] ---> 98852ed0653a
+
+[DOCKER] Step 2 : VOLUME /home/user/app
+
+[DOCKER] ---> Using cache
+
+[DOCKER] ---> 0ae0ab8b0cf9
+
+[DOCKER] Step 3 : CMD cd /home/user/app && make && ./bercos
+
+[DOCKER] ---> Using cache
+
+[DOCKER] ---> c638eceb8bf7
+
+[DOCKER] Successfully built c638eceb8bf7
+
+[STDOUT] Building src/grasp.cc
+
+[INFO] Environment preparation done. Application bap2 starting up…
+
+[STDOUT] Building src/porto.cc
+
+[STDOUT] Building src/main.cc
+
+[STDOUT] Building src/pabSolution.cc
+
+[STDERR] src/pabSolution.cc: In member function 'int pabSolution::simulate(std::vector<std::vector<Porto::Navio> >, unsigned int&, bool)':
+
+[STDERR] src/pabSolution.cc:243:17: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+
+[STDERR]      if (n.saida == t) {
+
+[STDERR]                  ^
+
+[STDOUT] Building src/bnb.cc
+
+[STDOUT] mkdir bin
+
+[STDOUT] mkdir obj
+
+[STDOUT] Building executable
+
+[STDOUT] Problem: ./dat/real.dat
+
+[STDOUT] Local,./dat/real.dat1,191,0,191
+
+[STDOUT] Local,./dat/real.dat1,184,0,184
+
+[STDOUT] Local,./dat/real.dat1,188,0,188
+
+[STDOUT] Local,./dat/real.dat1,175,0,175
+
+[STDOUT] Local,./dat/real.dat1,178,0,178
+
+[STDOUT] Local,./dat/real.dat1,184,0,184
+
+[STDOUT] Local,./dat/real.dat1,182,0,182
+
+[STDOUT] Local,./dat/real.dat1,187,0,187
+
+[STDOUT] Local,./dat/real.dat1,179,0,179
+
+[STDOUT] Local,./dat/real.dat1,182,0,182
+
+[STDOUT] Local,./dat/real.dat1,185,0,185
+
+[STDOUT] Local,./dat/real.dat1,180,0,180
+
+[STDOUT] Local,./dat/real.dat1,186,0,186
+
+[STDOUT] Local,./dat/real.dat1,179,0,179
+
+[STDOUT] Local,./dat/real.dat1,185,0,185
+
+[STDOUT] Local,./dat/real.dat1,193,0,193
+
+[STDOUT] Local,./dat/real.dat1,178,0,178
+
+[STDOUT] Local,./dat/real.dat1,175,0,175
+
+[STDOUT] Local,./dat/real.dat1,193,0,193
+
+[STDOUT] Local,./dat/real.dat1,184,0,184
+
+[STDOUT] Local,./dat/real.dat1,183,0,183
+
+[STDOUT] Local,./dat/real.dat1,187,0,187
+
+[STDOUT] Local,./dat/real.dat1,178,0,178
+
+[STDOUT] Local,./dat/real.dat1,181,0,181
+
+[STDOUT] Local,./dat/real.dat1,178,0,178
+
+[STDOUT] Local,./dat/real.dat1,180,0,180
+
+[STDOUT] Local,./dat/real.dat1,182,0,182
+
+[STDOUT] Local,./dat/real.dat1,190,0,190
+
+[STDOUT] Local,./dat/real.dat1,204,0,204
+
+[STDOUT] Local,./dat/real.dat1,185,0,185
+
+[STDOUT] Local,./dat/real.dat1,183,0,183
+
+[STDOUT] Local,./dat/real.dat1,178,0,178
+
+[STDOUT] Local,./dat/real.dat1,185,0,185
+
+[STDOUT] Local,./dat/real.dat1,191,0,191
+
+[STDOUT] Local,./dat/real.dat1,183,0,183
+
+[STDOUT] Local,./dat/real.dat1,192,0,192
+
+[STDOUT] Local,./dat/real.dat1,182,0,182
+
+[STDOUT] Local,./dat/real.dat1,183,0,183
+
+[STDOUT] Local,./dat/real.dat1,210,0,210
+
+[STDOUT] Local,./dat/real.dat1,174,0,174
+
+[STDOUT] Local,./dat/real.dat1,189,0,189
+
+[STDOUT] Local,./dat/real.dat1,177,0,177
+
+[STDOUT] Local,./dat/real.dat1,184,0,184
+
+[STDOUT] Local,./dat/real.dat1,179,0,179
+
+[STDOUT] Local,./dat/real.dat1,181,0,181
+
+[STDOUT] Local,./dat/real.dat1,182,0,182
+
+[STDOUT] Local,./dat/real.dat1,200,0,200
+
+[STDOUT] Local,./dat/real.dat1,180,0,180
+
+[STDOUT] Local,./dat/real.dat1,186,0,186
+
+[STDOUT] Local,./dat/real.dat1,190,0,190
+
+[STDOUT] Local,./dat/real.dat1,184,0,184
+
+[STDOUT] Local,./dat/real.dat1,189,0,189
+
+[STDOUT] Local,./dat/real.dat1,184,0,184
+
+[STDOUT] Local,./dat/real.dat1,190,0,190
+
+[STDOUT] Local,./dat/real.dat1,194,0,194
+
+[STDOUT] Local,./dat/real.dat1,181,0,181
+
+[STDOUT] Local,./dat/real.dat1,193,0,193
+
+[STDOUT] Local,./dat/real.dat1,174,0,174
+
+[STDOUT] Local,./dat/real.dat1,196,0,196
+
+[STDOUT] Local,./dat/real.dat1,181,0,181
+
+[STDOUT] Local,./dat/real.dat1,188,0,188
+
+[STDOUT] Local,./dat/real.dat1,191,0,191
+
+[INFO] Application bap2 has been shutdown.
